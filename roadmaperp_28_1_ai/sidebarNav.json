@@ -1,0 +1,2298 @@
+[
+  {
+    "title": "Financials",
+    "slug": "financials",
+    "icon": "bi bi-cash-stack",
+    "items": [
+      {
+        "name": "Business Entity",
+        "slug": "business-entity",
+        "id": "finBusinessEntity",
+        "path": "financials/business-entity",
+        "href": "/roadmaperp_28_1_ai/financials/business-entity"
+      },
+      {
+        "name": "Business Unit",
+        "slug": "business-unit",
+        "id": "finBusinessUnit",
+        "path": "financials/business-unit",
+        "href": "/roadmaperp_28_1_ai/financials/business-unit"
+      },
+      {
+        "name": "Departments",
+        "slug": "departments",
+        "id": "finDepartments",
+        "path": "financials/departments",
+        "href": "/roadmaperp_28_1_ai/financials/departments"
+      },
+      {
+        "name": "Currencies/Countries",
+        "slug": "currencies-countries",
+        "id": "finCurrenciesCountries",
+        "path": "financials/currencies-countries",
+        "href": "/roadmaperp_28_1_ai/financials/currencies-countries"
+      },
+      {
+        "name": "Payment/Inco Terms",
+        "slug": "payment-inco-terms",
+        "id": "finPaymentIncoTerms",
+        "path": "financials/payment-inco-terms",
+        "href": "/roadmaperp_28_1_ai/financials/payment-inco-terms"
+      },
+      {
+        "name": "Business Party Groups",
+        "slug": "business-party-groups",
+        "id": "finBusinessPartyGroups",
+        "path": "financials/business-party-groups",
+        "href": "/roadmaperp_28_1_ai/financials/business-party-groups"
+      },
+      {
+        "name": "Suppliers",
+        "slug": "suppliers",
+        "id": "finSuppliers",
+        "path": "financials/suppliers",
+        "href": "/roadmaperp_28_1_ai/financials/suppliers"
+      },
+      {
+        "name": "Customers",
+        "slug": "customers",
+        "id": "finCustomer",
+        "path": "financials/customers",
+        "href": "/roadmaperp_28_1_ai/financials/customers"
+      },
+      {
+        "name": "Cash/Imprest",
+        "slug": "cash-imprest",
+        "id": "finCashImprest",
+        "path": "financials/cash-imprest",
+        "href": "/roadmaperp_28_1_ai/financials/cash-imprest"
+      },
+      {
+        "name": "Inter/Intra Unit",
+        "slug": "inter-intra-unit",
+        "id": "finInterIntraUnit",
+        "path": "financials/inter-intra-unit",
+        "href": "/roadmaperp_28_1_ai/financials/inter-intra-unit"
+      },
+      {
+        "name": "Stat. Authorities",
+        "slug": "stat-authorities",
+        "id": "finStatAuthorities",
+        "path": "financials/stat-authorities",
+        "href": "/roadmaperp_28_1_ai/financials/stat-authorities"
+      },
+      {
+        "name": "Bank A/C",
+        "slug": "bank-a-c",
+        "id": "finBankAccounts",
+        "path": "financials/bank-a-c",
+        "href": "/roadmaperp_28_1_ai/financials/bank-a-c"
+      },
+      {
+        "name": "Setup - Financial Years",
+        "slug": "setup-financial-years",
+        "id": "finSetupFinancialYears",
+        "path": "financials/setup-financial-years",
+        "href": "/roadmaperp_28_1_ai/financials/setup-financial-years"
+      },
+      {
+        "name": "Financial Periods",
+        "slug": "financial-periods",
+        "id": "finFinancialPeriods",
+        "path": "financials/financial-periods",
+        "href": "/roadmaperp_28_1_ai/financials/financial-periods"
+      },
+      {
+        "name": "Appl. Control",
+        "slug": "appl-control",
+        "id": "finApplControl",
+        "path": "financials/appl-control",
+        "href": "/roadmaperp_28_1_ai/financials/appl-control"
+      },
+      {
+        "name": "OAC - Finance",
+        "slug": "oac-finance",
+        "id": "finOacFinance",
+        "path": "financials/oac-finance",
+        "href": "/roadmaperp_28_1_ai/financials/oac-finance"
+      },
+      {
+        "name": "GL Accounts",
+        "slug": "gl-accounts",
+        "id": "finGlAccounts",
+        "path": "financials/gl-accounts",
+        "href": "/roadmaperp_28_1_ai/financials/gl-accounts"
+      },
+      {
+        "name": "Profit/Cost Center",
+        "slug": "profit-cost-center",
+        "id": "finProfitCostCenter",
+        "path": "financials/profit-cost-center",
+        "href": "/roadmaperp_28_1_ai/financials/profit-cost-center"
+      },
+      {
+        "name": "Cost Center Association",
+        "slug": "cost-center-association",
+        "id": "finCostCenterAssociation",
+        "path": "financials/cost-center-association",
+        "href": "/roadmaperp_28_1_ai/financials/cost-center-association"
+      },
+      {
+        "name": "Application Journal Accounts – Appl. Acct. (Fin)",
+        "slug": "application-journal-accounts-appl-acct-fin",
+        "id": "finApplJournalAccFinancial",
+        "path": "financials/application-journal-accounts-appl-acct-fin",
+        "href": "/roadmaperp_28_1_ai/financials/application-journal-accounts-appl-acct-fin"
+      },
+      {
+        "name": "Application Journal Accounts – Appl. Acct. (FA)",
+        "slug": "application-journal-accounts-appl-acct-fa",
+        "id": "finApplJournalAccFixedAsset",
+        "path": "financials/application-journal-accounts-appl-acct-fa",
+        "href": "/roadmaperp_28_1_ai/financials/application-journal-accounts-appl-acct-fa"
+      },
+      {
+        "name": "Application Journal Accounts – Appl. Acct. (Purchase)",
+        "slug": "application-journal-accounts-appl-acct-purchase",
+        "id": "finApplJournalAccPruchase",
+        "path": "financials/application-journal-accounts-appl-acct-purchase",
+        "href": "/roadmaperp_28_1_ai/financials/application-journal-accounts-appl-acct-purchase"
+      },
+      {
+        "name": "Application Journal Accounts – Appl. Acct. (Sales)",
+        "slug": "application-journal-accounts-appl-acct-sales",
+        "id": "finApplJournalAccSales",
+        "path": "financials/application-journal-accounts-appl-acct-sales",
+        "href": "/roadmaperp_28_1_ai/financials/application-journal-accounts-appl-acct-sales"
+      },
+      {
+        "name": "Application Journal Accounts – Appl. Acct. (Payroll)",
+        "slug": "application-journal-accounts-appl-acct-payroll",
+        "id": "finApplJournalAccPayroll",
+        "path": "financials/application-journal-accounts-appl-acct-payroll",
+        "href": "/roadmaperp_28_1_ai/financials/application-journal-accounts-appl-acct-payroll"
+      },
+      {
+        "name": "Fin. Stat. Heads",
+        "slug": "fin-stat-heads",
+        "id": "finStatHeads",
+        "path": "financials/fin-stat-heads",
+        "href": "/roadmaperp_28_1_ai/financials/fin-stat-heads"
+      },
+      {
+        "name": "HSN Codes/Rates",
+        "slug": "hsn-codes-rates",
+        "id": "finHsnCodesRates",
+        "path": "financials/hsn-codes-rates",
+        "href": "/roadmaperp_28_1_ai/financials/hsn-codes-rates"
+      },
+      {
+        "name": "Setup-Fixed Assets",
+        "slug": "setup-fixed-assets",
+        "id": "finSetupFixedAssets",
+        "path": "financials/setup-fixed-assets",
+        "href": "/roadmaperp_28_1_ai/financials/setup-fixed-assets"
+      },
+      {
+        "name": "Update Ex. Rates",
+        "slug": "update-ex-rates",
+        "id": "finUpdateExRates",
+        "path": "financials/update-ex-rates",
+        "href": "/roadmaperp_28_1_ai/financials/update-ex-rates"
+      },
+      {
+        "name": "GRN-Purchase (with reference)",
+        "slug": "grn-purchase-with-reference",
+        "id": "finGrnPurchaseWithReference",
+        "path": "financials/grn-purchase-with-reference",
+        "href": "/roadmaperp_28_1_ai/financials/grn-purchase-with-reference"
+      },
+      {
+        "name": "GRN-Purchase (without reference)",
+        "slug": "grn-purchase-without-reference",
+        "id": "finGrnPurchaseWithoutReference",
+        "path": "financials/grn-purchase-without-reference",
+        "href": "/roadmaperp_28_1_ai/financials/grn-purchase-without-reference"
+      },
+      {
+        "name": "GRN-Subcontract (with reference)",
+        "slug": "grn-subcontract-with-reference",
+        "id": "finGrnSubcontractWithReference",
+        "path": "financials/grn-subcontract-with-reference",
+        "href": "/roadmaperp_28_1_ai/financials/grn-subcontract-with-reference"
+      },
+      {
+        "name": "GRN-Subcontract (without reference)",
+        "slug": "grn-subcontract-without-reference",
+        "id": "finGrnSubcontractWithoutReference",
+        "path": "financials/grn-subcontract-without-reference",
+        "href": "/roadmaperp_28_1_ai/financials/grn-subcontract-without-reference"
+      },
+      {
+        "name": "GRN-Stock Transfer (With reference)",
+        "slug": "grn-stock-transfer-with-reference",
+        "id": "finGrnStockTransferWithReference",
+        "path": "financials/grn-stock-transfer-with-reference",
+        "href": "/roadmaperp_28_1_ai/financials/grn-stock-transfer-with-reference"
+      },
+      {
+        "name": "GRN-Stock Transfer (Without reference)",
+        "slug": "grn-stock-transfer-without-reference",
+        "id": "finGrnStockTransferWithoutReference",
+        "path": "financials/grn-stock-transfer-without-reference",
+        "href": "/roadmaperp_28_1_ai/financials/grn-stock-transfer-without-reference"
+      },
+      {
+        "name": "Expense",
+        "slug": "expense",
+        "id": "finExpense",
+        "path": "financials/expense",
+        "href": "/roadmaperp_28_1_ai/financials/expense"
+      },
+      {
+        "name": "Landed Cost",
+        "slug": "landed-cost",
+        "id": "finLandedCost",
+        "path": "financials/landed-cost",
+        "href": "/roadmaperp_28_1_ai/financials/landed-cost"
+      },
+      {
+        "name": "Purchase Order (With reference)",
+        "slug": "purchase-order-with-reference",
+        "id": "finPurchaseOrderWithReference",
+        "path": "financials/purchase-order-with-reference",
+        "href": "/roadmaperp_28_1_ai/financials/purchase-order-with-reference"
+      },
+      {
+        "name": "Customer Documents",
+        "slug": "customer-documents",
+        "id": "finCustomerDocument",
+        "path": "financials/customer-documents",
+        "href": "/roadmaperp_28_1_ai/financials/customer-documents"
+      },
+      {
+        "name": "Credit Note",
+        "slug": "credit-note",
+        "id": "finCreditNote",
+        "path": "financials/credit-note",
+        "href": "/roadmaperp_28_1_ai/financials/credit-note"
+      },
+      {
+        "name": "Debit Note",
+        "slug": "debit-note",
+        "id": "finDebitNote",
+        "path": "financials/debit-note",
+        "href": "/roadmaperp_28_1_ai/financials/debit-note"
+      },
+      {
+        "name": "Advance Payment Request",
+        "slug": "advance-payment-request",
+        "id": "finAdvancePaymentRequest",
+        "path": "financials/advance-payment-request",
+        "href": "/roadmaperp_28_1_ai/financials/advance-payment-request"
+      },
+      {
+        "name": "Advance Receipt Request",
+        "slug": "advance-receipt-request",
+        "id": "finAdvanceReceiptRequest",
+        "path": "financials/advance-receipt-request",
+        "href": "/roadmaperp_28_1_ai/financials/advance-receipt-request"
+      },
+      {
+        "name": "Payment & Receipts – Bank Payment",
+        "slug": "payment-and-receipts-bank-payment",
+        "id": "finPaymentReceiptsBankPayment",
+        "path": "financials/payment-and-receipts-bank-payment",
+        "href": "/roadmaperp_28_1_ai/financials/payment-and-receipts-bank-payment"
+      },
+      {
+        "name": "Payment & Receipts – Bank Receipt",
+        "slug": "payment-and-receipts-bank-receipt",
+        "id": "finPaymentReceiptsBankReceipt",
+        "path": "financials/payment-and-receipts-bank-receipt",
+        "href": "/roadmaperp_28_1_ai/financials/payment-and-receipts-bank-receipt"
+      },
+      {
+        "name": "Payment & Receipts – Cash Payment",
+        "slug": "payment-and-receipts-cash-payment",
+        "id": "finPaymentReceiptsCashPayment",
+        "path": "financials/payment-and-receipts-cash-payment",
+        "href": "/roadmaperp_28_1_ai/financials/payment-and-receipts-cash-payment"
+      },
+      {
+        "name": "Payment & Receipts – Cash Receipt",
+        "slug": "payment-and-receipts-cash-receipt",
+        "id": "finPaymentReceiptsCashReceipt",
+        "path": "financials/payment-and-receipts-cash-receipt",
+        "href": "/roadmaperp_28_1_ai/financials/payment-and-receipts-cash-receipt"
+      },
+      {
+        "name": "Contra voucher",
+        "slug": "contra-voucher",
+        "id": "finContaVoucher",
+        "path": "financials/contra-voucher",
+        "href": "/roadmaperp_28_1_ai/financials/contra-voucher"
+      },
+      {
+        "name": "Bank Transactions - Void",
+        "slug": "bank-transactions-void",
+        "id": "finBankTransactionVoid",
+        "path": "financials/bank-transactions-void",
+        "href": "/roadmaperp_28_1_ai/financials/bank-transactions-void"
+      },
+      {
+        "name": "Bank Transactions - Clear",
+        "slug": "bank-transactions-clear",
+        "id": "finBankTransactionClear",
+        "path": "financials/bank-transactions-clear",
+        "href": "/roadmaperp_28_1_ai/financials/bank-transactions-clear"
+      },
+      {
+        "name": "Bank Reconciliation",
+        "slug": "bank-reconciliation",
+        "id": "finBankReconciliation",
+        "path": "financials/bank-reconciliation",
+        "href": "/roadmaperp_28_1_ai/financials/bank-reconciliation"
+      },
+      {
+        "name": "Bank Transactions – Post Dated Cheque",
+        "slug": "bank-transactions-post-dated-cheque",
+        "id": "finBankTransactionsPostDatedCheque",
+        "path": "financials/bank-transactions-post-dated-cheque",
+        "href": "/roadmaperp_28_1_ai/financials/bank-transactions-post-dated-cheque"
+      },
+      {
+        "name": "Journal Voucher",
+        "slug": "journal-voucher",
+        "id": "finJournalVoucher",
+        "path": "financials/journal-voucher",
+        "href": "/roadmaperp_28_1_ai/financials/journal-voucher"
+      },
+      {
+        "name": "Provisional Journals",
+        "slug": "provisional-journals",
+        "id": "finProvisionalJournals",
+        "path": "financials/provisional-journals",
+        "href": "/roadmaperp_28_1_ai/financials/provisional-journals"
+      },
+      {
+        "name": "Pending Unrevised Provisional Journal",
+        "slug": "pending-unrevised-provisional-journal",
+        "id": "finPendingUnrevisedProvisionalJournal",
+        "path": "financials/pending-unrevised-provisional-journal",
+        "href": "/roadmaperp_28_1_ai/financials/pending-unrevised-provisional-journal"
+      },
+      {
+        "name": "Payroll Journals",
+        "slug": "payroll-journals",
+        "id": "finPayrollJournals",
+        "path": "financials/payroll-journals",
+        "href": "/roadmaperp_28_1_ai/financials/payroll-journals"
+      },
+      {
+        "name": "Recurring Journals",
+        "slug": "recurring-journals",
+        "id": "finRecurringJournals",
+        "path": "financials/recurring-journals",
+        "href": "/roadmaperp_28_1_ai/financials/recurring-journals"
+      },
+      {
+        "name": "Forward Contract",
+        "slug": "forward-contract",
+        "id": "finForwardContract",
+        "path": "financials/forward-contract",
+        "href": "/roadmaperp_28_1_ai/financials/forward-contract"
+      },
+      {
+        "name": "Adjustments - Payments",
+        "slug": "adjustments-payments",
+        "id": "finAdjustmentsPayments",
+        "path": "financials/adjustments-payments",
+        "href": "/roadmaperp_28_1_ai/financials/adjustments-payments"
+      },
+      {
+        "name": "Adjustments - Receipts",
+        "slug": "adjustments-receipts",
+        "id": "finAdjustmentsReceipts",
+        "path": "financials/adjustments-receipts",
+        "href": "/roadmaperp_28_1_ai/financials/adjustments-receipts"
+      },
+      {
+        "name": "Party Offsets",
+        "slug": "party-offsets",
+        "id": "finPartyOffsets",
+        "path": "financials/party-offsets",
+        "href": "/roadmaperp_28_1_ai/financials/party-offsets"
+      },
+      {
+        "name": "Update Yearly Opening Balance",
+        "slug": "update-yearly-opening-balance",
+        "id": "finUpdateYearlyOpeningBalance",
+        "path": "financials/update-yearly-opening-balance",
+        "href": "/roadmaperp_28_1_ai/financials/update-yearly-opening-balance"
+      },
+      {
+        "name": "Closing TB",
+        "slug": "closing-tb",
+        "id": "finClosingTB",
+        "path": "financials/closing-tb",
+        "href": "/roadmaperp_28_1_ai/financials/closing-tb"
+      },
+      {
+        "name": "Budget",
+        "slug": "budget",
+        "id": "finBudget",
+        "path": "financials/budget",
+        "href": "/roadmaperp_28_1_ai/financials/budget"
+      },
+      {
+        "name": "Department Budget",
+        "slug": "department-budget",
+        "id": "finDepartmentBudget",
+        "path": "financials/department-budget",
+        "href": "/roadmaperp_28_1_ai/financials/department-budget"
+      },
+      {
+        "name": "Department Budget Consolidation",
+        "slug": "department-budget-consolidation",
+        "id": "finDepartmentBudgetConsolidation",
+        "path": "financials/department-budget-consolidation",
+        "href": "/roadmaperp_28_1_ai/financials/department-budget-consolidation"
+      },
+      {
+        "name": "Expense Budget",
+        "slug": "expense-budget",
+        "id": "finExpenseBudget",
+        "path": "financials/expense-budget",
+        "href": "/roadmaperp_28_1_ai/financials/expense-budget"
+      },
+      {
+        "name": "Sales/Material Budget",
+        "slug": "sales-material-budget",
+        "id": "finSalesMaterialBudget",
+        "path": "financials/sales-material-budget",
+        "href": "/roadmaperp_28_1_ai/financials/sales-material-budget"
+      },
+      {
+        "name": "CAPEX Project",
+        "slug": "capex-project",
+        "id": "finCAPEXProject",
+        "path": "financials/capex-project",
+        "href": "/roadmaperp_28_1_ai/financials/capex-project"
+      },
+      {
+        "name": "CAPEX Sub Project",
+        "slug": "capex-sub-project",
+        "id": "finCAPEXSubProject",
+        "path": "financials/capex-sub-project",
+        "href": "/roadmaperp_28_1_ai/financials/capex-sub-project"
+      },
+      {
+        "name": "CAPEX Budget",
+        "slug": "capex-budget",
+        "id": "finCAPEXBudget",
+        "path": "financials/capex-budget",
+        "href": "/roadmaperp_28_1_ai/financials/capex-budget"
+      },
+      {
+        "name": "CWIP to FA Conversion",
+        "slug": "cwip-to-fa-conversion",
+        "id": "finCWIPtoFAConversion",
+        "path": "financials/cwip-to-fa-conversion",
+        "href": "/roadmaperp_28_1_ai/financials/cwip-to-fa-conversion"
+      },
+      {
+        "name": "Fixed Assets",
+        "slug": "fixed-assets",
+        "id": "finFixedAssets",
+        "path": "financials/fixed-assets",
+        "href": "/roadmaperp_28_1_ai/financials/fixed-assets"
+      },
+      {
+        "name": "FA Shift Assignment",
+        "slug": "fa-shift-assignment",
+        "id": "finFAshiftAssignment",
+        "path": "financials/fa-shift-assignment",
+        "href": "/roadmaperp_28_1_ai/financials/fa-shift-assignment"
+      },
+      {
+        "name": "FA Depreciation",
+        "slug": "fa-depreciation",
+        "id": "finFADepreciation",
+        "path": "financials/fa-depreciation",
+        "href": "/roadmaperp_28_1_ai/financials/fa-depreciation"
+      },
+      {
+        "name": "FA Expiration",
+        "slug": "fa-expiration",
+        "id": "finFAExpiration",
+        "path": "financials/fa-expiration",
+        "href": "/roadmaperp_28_1_ai/financials/fa-expiration"
+      },
+      {
+        "name": "FA Disposal",
+        "slug": "fa-disposal",
+        "id": "finFADisposal",
+        "path": "financials/fa-disposal",
+        "href": "/roadmaperp_28_1_ai/financials/fa-disposal"
+      },
+      {
+        "name": "AP Revaluation",
+        "slug": "ap-revaluation",
+        "id": "finAPRevaluation",
+        "path": "financials/ap-revaluation",
+        "href": "/roadmaperp_28_1_ai/financials/ap-revaluation"
+      },
+      {
+        "name": "AR Revaluation",
+        "slug": "ar-revaluation",
+        "id": "finARRevaluation",
+        "path": "financials/ar-revaluation",
+        "href": "/roadmaperp_28_1_ai/financials/ar-revaluation"
+      }
+    ]
+  },
+  {
+    "title": "CRM",
+    "slug": "crm",
+    "icon": "bi bi-people-fill",
+    "items": [
+      {
+        "name": "Appl. Control (CRM)",
+        "slug": "appl-control-crm",
+        "id": "crmApplCtrlCrm",
+        "path": "crm/appl-control-crm",
+        "href": "/roadmaperp_28_1_ai/crm/appl-control-crm"
+      },
+      {
+        "name": "Sponsors",
+        "slug": "sponsors",
+        "id": "crmSponsors",
+        "path": "crm/sponsors",
+        "href": "/roadmaperp_28_1_ai/crm/sponsors"
+      },
+      {
+        "name": "Target Audience",
+        "slug": "target-audience",
+        "id": "crmTargetAudience",
+        "path": "crm/target-audience",
+        "href": "/roadmaperp_28_1_ai/crm/target-audience"
+      },
+      {
+        "name": "Campaigns Type",
+        "slug": "campaigns-type",
+        "id": "crmCampaignsType",
+        "path": "crm/campaigns-type",
+        "href": "/roadmaperp_28_1_ai/crm/campaigns-type"
+      },
+      {
+        "name": "Stage",
+        "slug": "lead-stage",
+        "id": "crmLeadStage",
+        "path": "crm/lead-stage",
+        "href": "/roadmaperp_28_1_ai/crm/lead-stage"
+      },
+      {
+        "name": "Disqualify Reason",
+        "slug": "disqualify-reason",
+        "id": "crmDisqualifyReason",
+        "path": "crm/disqualify-reason",
+        "href": "/roadmaperp_28_1_ai/crm/disqualify-reason"
+      },
+      {
+        "name": "Close Reason",
+        "slug": "close-reason",
+        "id": "crmCloseReason",
+        "path": "crm/close-reason",
+        "href": "/roadmaperp_28_1_ai/crm/close-reason"
+      },
+      {
+        "name": "Stage",
+        "slug": "enquiry-stage",
+        "id": "crmEnquiryStage",
+        "path": "crm/enquiry-stage",
+        "href": "/roadmaperp_28_1_ai/crm/enquiry-stage"
+      },
+      {
+        "name": "Group",
+        "slug": "group",
+        "id": "crmGroup",
+        "path": "crm/group",
+        "href": "/roadmaperp_28_1_ai/crm/group"
+      },
+      {
+        "name": "Parameter",
+        "slug": "parameter",
+        "id": "crmParameter",
+        "path": "crm/parameter",
+        "href": "/roadmaperp_28_1_ai/crm/parameter"
+      },
+      {
+        "name": "Department Group Association",
+        "slug": "department-group-association",
+        "id": "crmDepartmentGroupAssociation",
+        "path": "crm/department-group-association",
+        "href": "/roadmaperp_28_1_ai/crm/department-group-association"
+      },
+      {
+        "name": "Attribute",
+        "slug": "attribute",
+        "id": "crmAttribute",
+        "path": "crm/attribute",
+        "href": "/roadmaperp_28_1_ai/crm/attribute"
+      },
+      {
+        "name": "Attribute Notes",
+        "slug": "attribute-notes",
+        "id": "crmAttributeNotes",
+        "path": "crm/attribute-notes",
+        "href": "/roadmaperp_28_1_ai/crm/attribute-notes"
+      },
+      {
+        "name": "Cost Estimation Expense Heads",
+        "slug": "cost-estimation-expense-heads",
+        "id": "crmCostEstimationExpenseHeads",
+        "path": "crm/cost-estimation-expense-heads",
+        "href": "/roadmaperp_28_1_ai/crm/cost-estimation-expense-heads"
+      },
+      {
+        "name": "Campaigns",
+        "slug": "campaigns",
+        "id": "crmCampaigns",
+        "path": "crm/campaigns",
+        "href": "/roadmaperp_28_1_ai/crm/campaigns"
+      },
+      {
+        "name": "Leads",
+        "slug": "leads",
+        "id": "crmLeads",
+        "path": "crm/leads",
+        "href": "/roadmaperp_28_1_ai/crm/leads"
+      },
+      {
+        "name": "Enquiry",
+        "slug": "enquiry",
+        "id": "crmEnquiry",
+        "path": "crm/enquiry",
+        "href": "/roadmaperp_28_1_ai/crm/enquiry"
+      },
+      {
+        "name": "Feasibility Study",
+        "slug": "feasibility-study",
+        "id": "crmFeasibilityStudy",
+        "path": "crm/feasibility-study",
+        "href": "/roadmaperp_28_1_ai/crm/feasibility-study"
+      },
+      {
+        "name": "Cost Estimation",
+        "slug": "cost-estimation",
+        "id": "crmCostEstimation",
+        "path": "crm/cost-estimation",
+        "href": "/roadmaperp_28_1_ai/crm/cost-estimation"
+      },
+      {
+        "name": "Quotation",
+        "slug": "quotation",
+        "id": "crmQuotation",
+        "path": "crm/quotation",
+        "href": "/roadmaperp_28_1_ai/crm/quotation"
+      },
+      {
+        "name": "Pending Quotation",
+        "slug": "pending-quotation",
+        "id": "crmPendingQuotation",
+        "path": "crm/pending-quotation",
+        "href": "/roadmaperp_28_1_ai/crm/pending-quotation"
+      }
+    ]
+  },
+  {
+    "title": "Payroll",
+    "slug": "payroll",
+    "icon": "bi bi-person-badge-fill",
+    "items": [
+      {
+        "name": "Appl. Control (Payroll)",
+        "slug": "appl-control-payroll",
+        "id": "payrollApplCtrl",
+        "path": "payroll/appl-control-payroll",
+        "href": "/roadmaperp_28_1_ai/payroll/appl-control-payroll"
+      },
+      {
+        "name": "Setup-Employee",
+        "slug": "setup-employee",
+        "id": "payrollSetupEmployee",
+        "path": "payroll/setup-employee",
+        "href": "/roadmaperp_28_1_ai/payroll/setup-employee"
+      },
+      {
+        "name": "Setup-Payroll",
+        "slug": "setup-payroll",
+        "id": "payrollSetupPayroll",
+        "path": "payroll/setup-payroll",
+        "href": "/roadmaperp_28_1_ai/payroll/setup-payroll"
+      },
+      {
+        "name": "Setup-Leave & Loan",
+        "slug": "setup-leave-and-loan",
+        "id": "payrollSetupLeaveLoan",
+        "path": "payroll/setup-leave-and-loan",
+        "href": "/roadmaperp_28_1_ai/payroll/setup-leave-and-loan"
+      },
+      {
+        "name": "Setup-Travelling Expenses",
+        "slug": "setup-travelling-expenses",
+        "id": "payrollSetupTravellingExpenses",
+        "path": "payroll/setup-travelling-expenses",
+        "href": "/roadmaperp_28_1_ai/payroll/setup-travelling-expenses"
+      },
+      {
+        "name": "Employee Master",
+        "slug": "employee-master",
+        "id": "payrollEmployeeMaster",
+        "path": "payroll/employee-master",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-master"
+      },
+      {
+        "name": "Employee Profile Update",
+        "slug": "employee-profile-update",
+        "id": "payrollEmployeeProfileUpdate",
+        "path": "payroll/employee-profile-update",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-profile-update"
+      },
+      {
+        "name": "Bulk Increment",
+        "slug": "bulk-increment",
+        "id": "payrollBulkIncrement",
+        "path": "payroll/bulk-increment",
+        "href": "/roadmaperp_28_1_ai/payroll/bulk-increment"
+      },
+      {
+        "name": "Shift Attendance Details",
+        "slug": "shift-attendance-details",
+        "id": "payrollShiftAttendanceDetails",
+        "path": "payroll/shift-attendance-details",
+        "href": "/roadmaperp_28_1_ai/payroll/shift-attendance-details"
+      },
+      {
+        "name": "Employee Attendance",
+        "slug": "employee-attendance",
+        "id": "payrollEmployeeAttendance",
+        "path": "payroll/employee-attendance",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-attendance"
+      },
+      {
+        "name": "Leave/ Encash/Permission/Com. Off",
+        "slug": "leave-encash-permission-com-off",
+        "id": "payrollLeaveEncashPermissionComOff",
+        "path": "payroll/leave-encash-permission-com-off",
+        "href": "/roadmaperp_28_1_ai/payroll/leave-encash-permission-com-off"
+      },
+      {
+        "name": "Leave/Adjustment Entry",
+        "slug": "leave-adjustment-entry",
+        "id": "payrollLeaveAdjustmentEntry",
+        "path": "payroll/leave-adjustment-entry",
+        "href": "/roadmaperp_28_1_ai/payroll/leave-adjustment-entry"
+      },
+      {
+        "name": "Employee Overtime",
+        "slug": "employee-overtime",
+        "id": "payrollEmployeeOvertime",
+        "path": "payroll/employee-overtime",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-overtime"
+      },
+      {
+        "name": "Travel Request",
+        "slug": "travel-request",
+        "id": "payrollTravelRequest",
+        "path": "payroll/travel-request",
+        "href": "/roadmaperp_28_1_ai/payroll/travel-request"
+      },
+      {
+        "name": "Travel Reimbursement",
+        "slug": "travel-reimbursement",
+        "id": "payrollTravelReimbursement",
+        "path": "payroll/travel-reimbursement",
+        "href": "/roadmaperp_28_1_ai/payroll/travel-reimbursement"
+      },
+      {
+        "name": "General Expense Reimbursement",
+        "slug": "general-expense-reimbursement",
+        "id": "payrollGeneralExpenseReimbursement",
+        "path": "payroll/general-expense-reimbursement",
+        "href": "/roadmaperp_28_1_ai/payroll/general-expense-reimbursement"
+      },
+      {
+        "name": "Employee Loan Request",
+        "slug": "employee-loan-request",
+        "id": "payrollEmployeeLoanRequest",
+        "path": "payroll/employee-loan-request",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-loan-request"
+      },
+      {
+        "name": "Employee Loan Payment",
+        "slug": "employee-loan-payment",
+        "id": "payrollEmployeeLoanPayment",
+        "path": "payroll/employee-loan-payment",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-loan-payment"
+      },
+      {
+        "name": "TDS Declaration",
+        "slug": "tds-declaration",
+        "id": "payrollTDSDeclaration",
+        "path": "payroll/tds-declaration",
+        "href": "/roadmaperp_28_1_ai/payroll/tds-declaration"
+      },
+      {
+        "name": "Tax Statement(Summary)",
+        "slug": "tax-statementsummary",
+        "id": "payrollTaxStatementSummary",
+        "path": "payroll/tax-statementsummary",
+        "href": "/roadmaperp_28_1_ai/payroll/tax-statementsummary"
+      },
+      {
+        "name": "Employee Adjustment ",
+        "slug": "employee-adjustment",
+        "id": "payrollEmployeeAdjustment",
+        "path": "payroll/employee-adjustment",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-adjustment"
+      },
+      {
+        "name": "Employee bonus ",
+        "slug": "employee-bonus",
+        "id": "payrollEmployeeBonus",
+        "path": "payroll/employee-bonus",
+        "href": "/roadmaperp_28_1_ai/payroll/employee-bonus"
+      },
+      {
+        "name": "Prepare/Process Payroll",
+        "slug": "prepare-process-payroll",
+        "id": "payrollPrepareProcessPayroll",
+        "path": "payroll/prepare-process-payroll",
+        "href": "/roadmaperp_28_1_ai/payroll/prepare-process-payroll"
+      },
+      {
+        "name": "Resign/Termination Request",
+        "slug": "resign-termination-request",
+        "id": "payrollResignTerminationRequest",
+        "path": "payroll/resign-termination-request",
+        "href": "/roadmaperp_28_1_ai/payroll/resign-termination-request"
+      },
+      {
+        "name": "Full and Final Settlement",
+        "slug": "full-and-final-settlement",
+        "id": "payrollFullFinalSettlement",
+        "path": "payroll/full-and-final-settlement",
+        "href": "/roadmaperp_28_1_ai/payroll/full-and-final-settlement"
+      }
+    ]
+  },
+  {
+    "title": "PP/ShopFloor",
+    "slug": "pp-shopfloor",
+    "icon": "bi bi-cpu-fill",
+    "items": [
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "id": "rComingSoon",
+        "path": "pp-shopfloor/overview",
+        "href": "/roadmaperp_28_1_ai/pp-shopfloor/overview"
+      }
+    ]
+  },
+  {
+    "title": "Plant Maintenance",
+    "slug": "plant-maintenance",
+    "icon": "bi bi-tools",
+    "items": [
+      {
+        "name": "Appl. Control (Plant Maintenance)",
+        "slug": "appl-control-plant-maintenance",
+        "id": "plantMaintenanceApplControl",
+        "path": "plant-maintenance/appl-control-plant-maintenance",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/appl-control-plant-maintenance"
+      },
+      {
+        "name": "Plant Maintenance Setup",
+        "slug": "plant-maintenance-setup",
+        "id": "plantMaintenancePlantMaintenanceSetup",
+        "path": "plant-maintenance/plant-maintenance-setup",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/plant-maintenance-setup"
+      },
+      {
+        "name": "Sub Categories",
+        "slug": "sub-categories",
+        "id": "plantMaintenanceSubCategories",
+        "path": "plant-maintenance/sub-categories",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/sub-categories"
+      },
+      {
+        "name": "Area",
+        "slug": "area",
+        "id": "plantMaintenanceArea",
+        "path": "plant-maintenance/area",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/area"
+      },
+      {
+        "name": "Sub Area",
+        "slug": "sub-area",
+        "id": "plantMaintenanceSubArea",
+        "path": "plant-maintenance/sub-area",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/sub-area"
+      },
+      {
+        "name": "Meter",
+        "slug": "meter",
+        "id": "plantMaintenanceMeter",
+        "path": "plant-maintenance/meter",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/meter"
+      },
+      {
+        "name": "Maintenance In charge",
+        "slug": "maintenance-in-charge",
+        "id": "plantMaintenanceIncharge",
+        "path": "plant-maintenance/maintenance-in-charge",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/maintenance-in-charge"
+      },
+      {
+        "name": "Tasks Type",
+        "slug": "tasks-type",
+        "id": "plantMaintenanceTasksType",
+        "path": "plant-maintenance/tasks-type",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/tasks-type"
+      },
+      {
+        "name": "Tasks",
+        "slug": "tasks",
+        "id": "plantMaintenanceTasks",
+        "path": "plant-maintenance/tasks",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/tasks"
+      },
+      {
+        "name": "Sub. Cat. Task Association",
+        "slug": "sub-cat-task-association",
+        "id": "plantMaintenanceSubCatTaskAssociation",
+        "path": "plant-maintenance/sub-cat-task-association",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/sub-cat-task-association"
+      },
+      {
+        "name": "Failures",
+        "slug": "failures",
+        "id": "plantMaintenanceFailures",
+        "path": "plant-maintenance/failures",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/failures"
+      },
+      {
+        "name": "Causes",
+        "slug": "causes",
+        "id": "plantMaintenanceCauses",
+        "path": "plant-maintenance/causes",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/causes"
+      },
+      {
+        "name": "Actions",
+        "slug": "actions",
+        "id": "plantMaintenanceActions",
+        "path": "plant-maintenance/actions",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/actions"
+      },
+      {
+        "name": "Failure-Causes-Actions",
+        "slug": "failure-causes-actions",
+        "id": "plantMaintenanceFailureCausesActions",
+        "path": "plant-maintenance/failure-causes-actions",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/failure-causes-actions"
+      },
+      {
+        "name": "Delay Reasons",
+        "slug": "delay-reasons",
+        "id": "plantMaintenanceDelayReasons",
+        "path": "plant-maintenance/delay-reasons",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/delay-reasons"
+      },
+      {
+        "name": "Work Shifts",
+        "slug": "work-shifts",
+        "id": "plantMaintenanceWorkShifts",
+        "path": "plant-maintenance/work-shifts",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/work-shifts"
+      },
+      {
+        "name": "Characteristics",
+        "slug": "characteristics",
+        "id": "plantMaintenanceCharacteristics",
+        "path": "plant-maintenance/characteristics",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/characteristics"
+      },
+      {
+        "name": "Specifications",
+        "slug": "specifications",
+        "id": "plantMaintenanceSpecifications",
+        "path": "plant-maintenance/specifications",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/specifications"
+      },
+      {
+        "name": "Template",
+        "slug": "template",
+        "id": "plantMaintenanceTemplate",
+        "path": "plant-maintenance/template",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/template"
+      },
+      {
+        "name": "Model",
+        "slug": "model",
+        "id": "plantMaintenanceModel",
+        "path": "plant-maintenance/model",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/model"
+      },
+      {
+        "name": "Make",
+        "slug": "make",
+        "id": "plantMaintenanceMake",
+        "path": "plant-maintenance/make",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/make"
+      },
+      {
+        "name": "Equipments",
+        "slug": "equipments",
+        "id": "plantMaintenanceEquipments",
+        "path": "plant-maintenance/equipments",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/equipments"
+      },
+      {
+        "name": "PM Schedules",
+        "slug": "pm-schedules",
+        "id": "plantMaintenancePMSchedules",
+        "path": "plant-maintenance/pm-schedules",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/pm-schedules"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "slug": "predictive-maintenance",
+        "id": "plantMaintenancePredictiveMaintenance",
+        "path": "plant-maintenance/predictive-maintenance",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/predictive-maintenance"
+      },
+      {
+        "name": "Update Meter Reading",
+        "slug": "update-meter-reading",
+        "id": "plantMaintenanceUpdateMeterReading",
+        "path": "plant-maintenance/update-meter-reading",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/update-meter-reading"
+      },
+      {
+        "name": "Update Maintenance Dues",
+        "slug": "update-maintenance-dues",
+        "id": "plantMaintenanceUpdateMaintenanceDues",
+        "path": "plant-maintenance/update-maintenance-dues",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/update-maintenance-dues"
+      },
+      {
+        "name": "Work Request",
+        "slug": "work-request",
+        "id": "plantMaintenanceWorkRequest",
+        "path": "plant-maintenance/work-request",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/work-request"
+      },
+      {
+        "name": "Work Order",
+        "slug": "work-order",
+        "id": "plantMaintenanceWorkOrder",
+        "path": "plant-maintenance/work-order",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/work-order"
+      },
+      {
+        "name": "WO Completion",
+        "slug": "wo-completion",
+        "id": "plantMaintenanceWOCompletion",
+        "path": "plant-maintenance/wo-completion",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/wo-completion"
+      },
+      {
+        "name": "Equipment Hand Over",
+        "slug": "equipment-hand-over",
+        "id": "plantMaintenanceEquipmentHandOver",
+        "path": "plant-maintenance/equipment-hand-over",
+        "href": "/roadmaperp_28_1_ai/plant-maintenance/equipment-hand-over"
+      }
+    ]
+  },
+  {
+    "title": "Workflow Management",
+    "slug": "workflow-management",
+    "icon": "bi bi-diagram-3-fill",
+    "items": [
+      {
+        "name": "Employee Hierarchy",
+        "slug": "employee-hierarchy",
+        "id": "workflowEmployeeHierarchy",
+        "path": "workflow-management/employee-hierarchy",
+        "href": "/roadmaperp_28_1_ai/workflow-management/employee-hierarchy"
+      },
+      {
+        "name": "Workflows",
+        "slug": "workflows",
+        "id": "workflowWorkflows",
+        "path": "workflow-management/workflows",
+        "href": "/roadmaperp_28_1_ai/workflow-management/workflows"
+      },
+      {
+        "name": "Document Approval",
+        "slug": "document-approval",
+        "id": "workflowDocumentApproval",
+        "path": "workflow-management/document-approval",
+        "href": "/roadmaperp_28_1_ai/workflow-management/document-approval"
+      },
+      {
+        "name": "Authorization Change Request",
+        "slug": "authorization-change-request",
+        "id": "workflowAuthorizationChangeRequest",
+        "path": "workflow-management/authorization-change-request",
+        "href": "/roadmaperp_28_1_ai/workflow-management/authorization-change-request"
+      }
+    ]
+  },
+  {
+    "title": "Operating Instructions",
+    "slug": "operating-instructions",
+    "icon": "bi bi-journal-bookmark-fill",
+    "items": [
+      {
+        "name": "How to Login",
+        "slug": "how-to-login",
+        "id": "OperatingInstructionsHowToLogin",
+        "path": "operating-instructions/how-to-login",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-login"
+      },
+      {
+        "name": "What is a Business Function",
+        "slug": "what-is-a-business-function",
+        "id": "OperatingInstructionsWhatIsABusinessFunction",
+        "path": "operating-instructions/what-is-a-business-function",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/what-is-a-business-function"
+      },
+      {
+        "name": "How to Open a Business Function",
+        "slug": "how-to-open-a-business-function",
+        "id": "OperatingInstructionsHowToOpenABusinessFunction",
+        "path": "operating-instructions/how-to-open-a-business-function",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-open-a-business-function"
+      },
+      {
+        "name": "How to use Search screen",
+        "slug": "how-to-use-search-screen",
+        "id": "OperatingInstructionsHowToUseSearchScreen",
+        "path": "operating-instructions/how-to-use-search-screen",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-use-search-screen"
+      },
+      {
+        "name": "How to add data",
+        "slug": "how-to-add-data",
+        "id": "OperatingInstructionsHowToAddData",
+        "path": "operating-instructions/how-to-add-data",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-add-data"
+      },
+      {
+        "name": "How to save data",
+        "slug": "how-to-save-data",
+        "id": "OperatingInstructionsHowToSaveData",
+        "path": "operating-instructions/how-to-save-data",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-save-data"
+      },
+      {
+        "name": "How to Query data",
+        "slug": "how-to-query-data",
+        "id": "OperatingInstructionsHowToQueryData",
+        "path": "operating-instructions/how-to-query-data",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-query-data"
+      },
+      {
+        "name": "How to navigate through the records",
+        "slug": "how-to-navigate-through-the-records",
+        "id": "OperatingInstructionsHowToNavigateThroughTheRecords",
+        "path": "operating-instructions/how-to-navigate-through-the-records",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-navigate-through-the-records"
+      },
+      {
+        "name": "Modify the data",
+        "slug": "modify-the-data",
+        "id": "OperatingInstructionsModifyTheData",
+        "path": "operating-instructions/modify-the-data",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/modify-the-data"
+      },
+      {
+        "name": "Delete the data",
+        "slug": "delete-the-data",
+        "id": "OperatingInstructionsDeleteTheData",
+        "path": "operating-instructions/delete-the-data",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/delete-the-data"
+      },
+      {
+        "name": "Clear",
+        "slug": "clear",
+        "id": "OperatingInstructionsClear",
+        "path": "operating-instructions/clear",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/clear"
+      },
+      {
+        "name": "How to use LOV",
+        "slug": "how-to-use-lov",
+        "id": "OperatingInstructionsHowToUseLOV",
+        "path": "operating-instructions/how-to-use-lov",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-use-lov"
+      },
+      {
+        "name": "How to use Calendar",
+        "slug": "how-to-use-calendar",
+        "id": "OperatingInstructionsHowToUseCalendar",
+        "path": "operating-instructions/how-to-use-calendar",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-use-calendar"
+      },
+      {
+        "name": "How to view Workflow",
+        "slug": "how-to-view-workflow",
+        "id": "OperatingInstructionsHowToViewWorkflow",
+        "path": "operating-instructions/how-to-view-workflow",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-view-workflow"
+      },
+      {
+        "name": "How to view messages",
+        "slug": "how-to-view-messages",
+        "id": "OperatingInstructionsHowToViewMessages",
+        "path": "operating-instructions/how-to-view-messages",
+        "href": "/roadmaperp_28_1_ai/operating-instructions/how-to-view-messages"
+      }
+    ]
+  },
+  {
+    "title": "Quality Management",
+    "slug": "quality-management",
+    "icon": "bi bi-patch-check-fill",
+    "items": [
+      {
+        "name": "Appl. Control (Quality)",
+        "slug": "appl-control-quality",
+        "id": "qualityManagementApplCtrl",
+        "path": "quality-management/appl-control-quality",
+        "href": "/roadmaperp_28_1_ai/quality-management/appl-control-quality"
+      },
+      {
+        "name": "Characteristics Groups",
+        "slug": "characteristics-groups",
+        "id": "qualityManagementCharacteristicsGroups",
+        "path": "quality-management/characteristics-groups",
+        "href": "/roadmaperp_28_1_ai/quality-management/characteristics-groups"
+      },
+      {
+        "name": "Testing",
+        "slug": "testing",
+        "id": "qualityManagementTesting",
+        "path": "quality-management/testing",
+        "href": "/roadmaperp_28_1_ai/quality-management/testing"
+      },
+      {
+        "name": "Characteristics",
+        "slug": "characteristics",
+        "id": "qualityManagementCharacteristics",
+        "path": "quality-management/characteristics",
+        "href": "/roadmaperp_28_1_ai/quality-management/characteristics"
+      },
+      {
+        "name": "Specification",
+        "slug": "specification",
+        "id": "qualityManagementSpecification",
+        "path": "quality-management/specification",
+        "href": "/roadmaperp_28_1_ai/quality-management/specification"
+      },
+      {
+        "name": "Attribute Specification",
+        "slug": "attribute-specification",
+        "id": "qualityManagementAttributeSpecification",
+        "path": "quality-management/attribute-specification",
+        "href": "/roadmaperp_28_1_ai/quality-management/attribute-specification"
+      },
+      {
+        "name": "Defects",
+        "slug": "defects",
+        "id": "qualityManagementDefects",
+        "path": "quality-management/defects",
+        "href": "/roadmaperp_28_1_ai/quality-management/defects"
+      },
+      {
+        "name": "Defect code",
+        "slug": "defect-code",
+        "id": "qualityManagementDefectCode",
+        "path": "quality-management/defect-code",
+        "href": "/roadmaperp_28_1_ai/quality-management/defect-code"
+      },
+      {
+        "name": "Causes",
+        "slug": "causes",
+        "id": "qualityManagementCauses",
+        "path": "quality-management/causes",
+        "href": "/roadmaperp_28_1_ai/quality-management/causes"
+      },
+      {
+        "name": "Defect Causes",
+        "slug": "defect-causes",
+        "id": "qualityManagementDefectCauses",
+        "path": "quality-management/defect-causes",
+        "href": "/roadmaperp_28_1_ai/quality-management/defect-causes"
+      },
+      {
+        "name": "Action Description",
+        "slug": "action-description",
+        "id": "qualityManagementActionDescription",
+        "path": "quality-management/action-description",
+        "href": "/roadmaperp_28_1_ai/quality-management/action-description"
+      },
+      {
+        "name": "Defect Action",
+        "slug": "defect-action",
+        "id": "qualityManagementDefectAction",
+        "path": "quality-management/defect-action",
+        "href": "/roadmaperp_28_1_ai/quality-management/defect-action"
+      },
+      {
+        "name": "Deviation",
+        "slug": "deviation",
+        "id": "qualityManagementDeviation",
+        "path": "quality-management/deviation",
+        "href": "/roadmaperp_28_1_ai/quality-management/deviation"
+      },
+      {
+        "name": "Single Sampling Table",
+        "slug": "single-sampling-table",
+        "id": "qualityManagementSingleSamplingTable",
+        "path": "quality-management/single-sampling-table",
+        "href": "/roadmaperp_28_1_ai/quality-management/single-sampling-table"
+      },
+      {
+        "name": "Normal Inspection",
+        "slug": "normal-inspection",
+        "id": "qualityManagementNormalInspection",
+        "path": "quality-management/normal-inspection",
+        "href": "/roadmaperp_28_1_ai/quality-management/normal-inspection"
+      },
+      {
+        "name": "Control Chart",
+        "slug": "control-chart",
+        "id": "qualityManagementControlChart",
+        "path": "quality-management/control-chart",
+        "href": "/roadmaperp_28_1_ai/quality-management/control-chart"
+      },
+      {
+        "name": "Receiving Inspection",
+        "slug": "receiving-inspection",
+        "id": "qualityManagementReceivingInspection",
+        "path": "quality-management/receiving-inspection",
+        "href": "/roadmaperp_28_1_ai/quality-management/receiving-inspection"
+      },
+      {
+        "name": "Instruments Group",
+        "slug": "instruments-group",
+        "id": "qualityManagementInstrumentsGroup",
+        "path": "quality-management/instruments-group",
+        "href": "/roadmaperp_28_1_ai/quality-management/instruments-group"
+      },
+      {
+        "name": "Instruments Sub Group",
+        "slug": "instruments-sub-group",
+        "id": "qualityManagementInstrumentsSubGroup",
+        "path": "quality-management/instruments-sub-group",
+        "href": "/roadmaperp_28_1_ai/quality-management/instruments-sub-group"
+      },
+      {
+        "name": "Instruments Location",
+        "slug": "instruments-location",
+        "id": "qualityManagementInstrumentsLocation",
+        "path": "quality-management/instruments-location",
+        "href": "/roadmaperp_28_1_ai/quality-management/instruments-location"
+      },
+      {
+        "name": "Calibration Method",
+        "slug": "calibration-method",
+        "id": "qualityManagementCalibrationMethod",
+        "path": "quality-management/calibration-method",
+        "href": "/roadmaperp_28_1_ai/quality-management/calibration-method"
+      },
+      {
+        "name": "Inspector",
+        "slug": "inspector",
+        "id": "qualityManagementInspector",
+        "path": "quality-management/inspector",
+        "href": "/roadmaperp_28_1_ai/quality-management/inspector"
+      },
+      {
+        "name": "Location Wise",
+        "slug": "location-wise",
+        "id": "qualityManagementLocationWise",
+        "path": "quality-management/location-wise",
+        "href": "/roadmaperp_28_1_ai/quality-management/location-wise"
+      },
+      {
+        "name": "Location, Item Wise",
+        "slug": "location-item-wise",
+        "id": "qualityManagementLocationItemWise",
+        "path": "quality-management/location-item-wise",
+        "href": "/roadmaperp_28_1_ai/quality-management/location-item-wise"
+      },
+      {
+        "name": "Location, Process Wise",
+        "slug": "location-process-wise",
+        "id": "qualityManagementLocationProcessWise",
+        "path": "quality-management/location-process-wise",
+        "href": "/roadmaperp_28_1_ai/quality-management/location-process-wise"
+      },
+      {
+        "name": "Location, Item, Process Wise",
+        "slug": "location-item-process-wise",
+        "id": "qualityManagementLocationItemProcessWise",
+        "path": "quality-management/location-item-process-wise",
+        "href": "/roadmaperp_28_1_ai/quality-management/location-item-process-wise"
+      },
+      {
+        "name": "Test certificate Institution",
+        "slug": "test-certificate-institution",
+        "id": "qualityManagementTestCertificateInstitution",
+        "path": "quality-management/test-certificate-institution",
+        "href": "/roadmaperp_28_1_ai/quality-management/test-certificate-institution"
+      },
+      {
+        "name": "Inspection plan",
+        "slug": "inspection-plan",
+        "id": "qualityManagementInspectionPlan",
+        "path": "quality-management/inspection-plan",
+        "href": "/roadmaperp_28_1_ai/quality-management/inspection-plan"
+      },
+      {
+        "name": "Inspection Request",
+        "slug": "inspection-request",
+        "id": "qualityManagementInspectionRequest",
+        "path": "quality-management/inspection-request",
+        "href": "/roadmaperp_28_1_ai/quality-management/inspection-request"
+      },
+      {
+        "name": "Inspection Document",
+        "slug": "inspection-document",
+        "id": "qualityManagementInspectionDocument",
+        "path": "quality-management/inspection-document",
+        "href": "/roadmaperp_28_1_ai/quality-management/inspection-document"
+      },
+      {
+        "name": "Patrol Inspection",
+        "slug": "patrol-inspection",
+        "id": "qualityManagementPatrolInspection",
+        "path": "quality-management/patrol-inspection",
+        "href": "/roadmaperp_28_1_ai/quality-management/patrol-inspection"
+      },
+      {
+        "name": "NCR",
+        "slug": "ncr",
+        "id": "qualityManagementNCR",
+        "path": "quality-management/ncr",
+        "href": "/roadmaperp_28_1_ai/quality-management/ncr"
+      },
+      {
+        "name": "8-D - Eight Discipline",
+        "slug": "8-d-eight-discipline",
+        "id": "qualityManagement8DEightDiscipline",
+        "path": "quality-management/8-d-eight-discipline",
+        "href": "/roadmaperp_28_1_ai/quality-management/8-d-eight-discipline"
+      },
+      {
+        "name": "Instruments",
+        "slug": "instruments",
+        "id": "qualityManagementInstruments",
+        "path": "quality-management/instruments",
+        "href": "/roadmaperp_28_1_ai/quality-management/instruments"
+      },
+      {
+        "name": "Calibration",
+        "slug": "calibration",
+        "id": "qualityManagementCalibration",
+        "path": "quality-management/calibration",
+        "href": "/roadmaperp_28_1_ai/quality-management/calibration"
+      },
+      {
+        "name": "Inspection",
+        "slug": "inspection",
+        "id": "qualityManagementInspection",
+        "path": "quality-management/inspection",
+        "href": "/roadmaperp_28_1_ai/quality-management/inspection"
+      },
+      {
+        "name": "Instrument Rejection",
+        "slug": "instrument-rejection",
+        "id": "qualityManagementInstrumentRejection",
+        "path": "quality-management/instrument-rejection",
+        "href": "/roadmaperp_28_1_ai/quality-management/instrument-rejection"
+      },
+      {
+        "name": "Linearity Study",
+        "slug": "linearity-study",
+        "id": "qualityManagementLinearityStudy",
+        "path": "quality-management/linearity-study",
+        "href": "/roadmaperp_28_1_ai/quality-management/linearity-study"
+      },
+      {
+        "name": "Bias Study",
+        "slug": "bias-study",
+        "id": "qualityManagementBiasStudy",
+        "path": "quality-management/bias-study",
+        "href": "/roadmaperp_28_1_ai/quality-management/bias-study"
+      },
+      {
+        "name": "Stability Study",
+        "slug": "stability-study",
+        "id": "qualityManagementStabilityStudy",
+        "path": "quality-management/stability-study",
+        "href": "/roadmaperp_28_1_ai/quality-management/stability-study"
+      }
+    ]
+  },
+  {
+    "title": "Subcontracting Order",
+    "slug": "subcontracting-order",
+    "icon": "bi bi-person-gear",
+    "items": [
+      {
+        "name": "Appl. Control (Subcontract)",
+        "slug": "appl-control-subcontract",
+        "id": "subcontractApplCtrl",
+        "path": "subcontracting-order/appl-control-subcontract",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/appl-control-subcontract"
+      },
+      {
+        "name": "Approved Suppliers",
+        "slug": "approved-suppliers",
+        "id": "subcontractApprovedSuppliers",
+        "path": "subcontracting-order/approved-suppliers",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/approved-suppliers"
+      },
+      {
+        "name": "Open SCO/RC",
+        "slug": "open-sco-rc",
+        "id": "subcontractOpenSCO",
+        "path": "subcontracting-order/open-sco-rc",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/open-sco-rc"
+      },
+      {
+        "name": "Subcontract Order",
+        "slug": "subcontract-order",
+        "id": "subcontractSubcontractOrder",
+        "path": "subcontracting-order/subcontract-order",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/subcontract-order"
+      },
+      {
+        "name": "GRN- SCO",
+        "slug": "grn-sco",
+        "id": "subcontractGRNSCO",
+        "path": "subcontracting-order/grn-sco",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/grn-sco"
+      },
+      {
+        "name": "Material Issuance Voucher",
+        "slug": "material-issuance-voucher",
+        "id": "subcontractMaterialIssuanceVoucher",
+        "path": "subcontracting-order/material-issuance-voucher",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/material-issuance-voucher"
+      },
+      {
+        "name": "Material Receipt Voucher",
+        "slug": "material-receipt-voucher",
+        "id": "subcontractMaterialReceiptVoucher",
+        "path": "subcontracting-order/material-receipt-voucher",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/material-receipt-voucher"
+      },
+      {
+        "name": "Return",
+        "slug": "return",
+        "id": "subcontractReturn",
+        "path": "subcontracting-order/return",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/return"
+      },
+      {
+        "name": "Subcontract Order CS",
+        "slug": "subcontract-order-cs",
+        "id": "subcontractSubcontractOrderCS",
+        "path": "subcontracting-order/subcontract-order-cs",
+        "href": "/roadmaperp_28_1_ai/subcontracting-order/subcontract-order-cs"
+      }
+    ]
+  },
+  {
+    "title": "Sales Order",
+    "slug": "sales-order",
+    "icon": "bi bi-cart-check-fill",
+    "items": [
+      {
+        "name": "Application Control Sales",
+        "slug": "application-control-sales",
+        "id": "salesOrderApplCtrlSales",
+        "path": "sales-order/application-control-sales",
+        "href": "/roadmaperp_28_1_ai/sales-order/application-control-sales"
+      },
+      {
+        "name": "Sales Area",
+        "slug": "sales-area",
+        "id": "salesOrderSalesArea",
+        "path": "sales-order/sales-area",
+        "href": "/roadmaperp_28_1_ai/sales-order/sales-area"
+      },
+      {
+        "name": "Sub Territories",
+        "slug": "sub-territories",
+        "id": "salesOrderSubTerritories",
+        "path": "sales-order/sub-territories",
+        "href": "/roadmaperp_28_1_ai/sales-order/sub-territories"
+      },
+      {
+        "name": "Sales Persons",
+        "slug": "sales-persons",
+        "id": "salesOrderSalesPersons",
+        "path": "sales-order/sales-persons",
+        "href": "/roadmaperp_28_1_ai/sales-order/sales-persons"
+      },
+      {
+        "name": "Price Classes",
+        "slug": "price-classes",
+        "id": "salesOrderPriceClasses",
+        "path": "sales-order/price-classes",
+        "href": "/roadmaperp_28_1_ai/sales-order/price-classes"
+      },
+      {
+        "name": "Catalog",
+        "slug": "catalog",
+        "id": "salesOrderCatalog",
+        "path": "sales-order/catalog",
+        "href": "/roadmaperp_28_1_ai/sales-order/catalog"
+      },
+      {
+        "name": "Customer Items",
+        "slug": "customer-items",
+        "id": "salesOrderCustomerItems",
+        "path": "sales-order/customer-items",
+        "href": "/roadmaperp_28_1_ai/sales-order/customer-items"
+      },
+      {
+        "name": "Price List / Standard / Catalog",
+        "slug": "price-list-standard-catalog",
+        "id": "salesOrderPriceListStandardCatalog",
+        "path": "sales-order/price-list-standard-catalog",
+        "href": "/roadmaperp_28_1_ai/sales-order/price-list-standard-catalog"
+      },
+      {
+        "name": "Standard Price",
+        "slug": "standard-price",
+        "id": "salesOrderStandardPrice",
+        "path": "sales-order/standard-price",
+        "href": "/roadmaperp_28_1_ai/sales-order/standard-price"
+      },
+      {
+        "name": "Catalog Price",
+        "slug": "catalog-price",
+        "id": "salesOrderCatalogPrice",
+        "path": "sales-order/catalog-price",
+        "href": "/roadmaperp_28_1_ai/sales-order/catalog-price"
+      },
+      {
+        "name": "Open Sales Order",
+        "slug": "open-sales-order",
+        "id": "salesOrderOpenSalesOrder",
+        "path": "sales-order/open-sales-order",
+        "href": "/roadmaperp_28_1_ai/sales-order/open-sales-order"
+      },
+      {
+        "name": "Current Rate Contract",
+        "slug": "current-rate-contract",
+        "id": "salesOrderCurrentRateContract",
+        "path": "sales-order/current-rate-contract",
+        "href": "/roadmaperp_28_1_ai/sales-order/current-rate-contract"
+      },
+      {
+        "name": "Open Sales Order Amendment",
+        "slug": "open-sales-order-amendment",
+        "id": "salesOrderOpenSalesOrderAmendment",
+        "path": "sales-order/open-sales-order-amendment",
+        "href": "/roadmaperp_28_1_ai/sales-order/open-sales-order-amendment"
+      },
+      {
+        "name": "Open Labor Order",
+        "slug": "open-labor-order",
+        "id": "salesOrderOpenLaborOrder",
+        "path": "sales-order/open-labor-order",
+        "href": "/roadmaperp_28_1_ai/sales-order/open-labor-order"
+      },
+      {
+        "name": "Open Labor Order Amendment",
+        "slug": "open-labor-order-amendment",
+        "id": "salesOrderOpenLaborOrderAmendment",
+        "path": "sales-order/open-labor-order-amendment",
+        "href": "/roadmaperp_28_1_ai/sales-order/open-labor-order-amendment"
+      },
+      {
+        "name": "Sales Order",
+        "slug": "sales-order",
+        "id": "salesOrderSalesOrder",
+        "path": "sales-order/sales-order",
+        "href": "/roadmaperp_28_1_ai/sales-order/sales-order"
+      },
+      {
+        "name": "Customer Schedule",
+        "slug": "customer-schedule",
+        "id": "salesOrderCustomerSchedule",
+        "path": "sales-order/customer-schedule",
+        "href": "/roadmaperp_28_1_ai/sales-order/customer-schedule"
+      },
+      {
+        "name": "Sales Order Amendment",
+        "slug": "sales-order-amendment",
+        "id": "salesOrderSalesOrderAmendment",
+        "path": "sales-order/sales-order-amendment",
+        "href": "/roadmaperp_28_1_ai/sales-order/sales-order-amendment"
+      },
+      {
+        "name": "Labor Order",
+        "slug": "labor-order",
+        "id": "salesOrderLaborOrder",
+        "path": "sales-order/labor-order",
+        "href": "/roadmaperp_28_1_ai/sales-order/labor-order"
+      },
+      {
+        "name": "Labor Order Amendment",
+        "slug": "labor-order-amendment",
+        "id": "salesOrderLaborOrderAmendment",
+        "path": "sales-order/labor-order-amendment",
+        "href": "/roadmaperp_28_1_ai/sales-order/labor-order-amendment"
+      },
+      {
+        "name": "Pro-forma Invoice",
+        "slug": "pro-forma-invoice",
+        "id": "salesOrderProformaInvoice",
+        "path": "sales-order/pro-forma-invoice",
+        "href": "/roadmaperp_28_1_ai/sales-order/pro-forma-invoice"
+      },
+      {
+        "name": "Sales Invoice",
+        "slug": "sales-invoice",
+        "id": "salesOrderSalesInvoice",
+        "path": "sales-order/sales-invoice",
+        "href": "/roadmaperp_28_1_ai/sales-order/sales-invoice"
+      },
+      {
+        "name": "Labor Invoice",
+        "slug": "labor-invoice",
+        "id": "salesOrderLaborInvoice",
+        "path": "sales-order/labor-invoice",
+        "href": "/roadmaperp_28_1_ai/sales-order/labor-invoice"
+      },
+      {
+        "name": "Price Difference Working",
+        "slug": "price-difference-working",
+        "id": "salesOrderPriceDifferenceWorking",
+        "path": "sales-order/price-difference-working",
+        "href": "/roadmaperp_28_1_ai/sales-order/price-difference-working"
+      },
+      {
+        "name": "Credit Note",
+        "slug": "credit-note",
+        "id": "salesOrderCreditNote",
+        "path": "sales-order/credit-note",
+        "href": "/roadmaperp_28_1_ai/sales-order/credit-note"
+      }
+    ]
+  },
+  {
+    "title": "Purchase Order",
+    "slug": "purchase-order",
+    "icon": "bi bi-truck",
+    "items": [
+      {
+        "name": "Appl. Control (Purchase Order)",
+        "slug": "appl-control-purchase-order",
+        "id": "purchaseOrderApplCtrlPurchase",
+        "path": "purchase-order/appl-control-purchase-order",
+        "href": "/roadmaperp_28_1_ai/purchase-order/appl-control-purchase-order"
+      },
+      {
+        "name": "Buyer",
+        "slug": "buyer",
+        "id": "purchaseOrderBuyer",
+        "path": "purchase-order/buyer",
+        "href": "/roadmaperp_28_1_ai/purchase-order/buyer"
+      },
+      {
+        "name": "Approved Suppliers(Entry)",
+        "slug": "approved-suppliersentry",
+        "id": "purchaseOrderApprovedSuppliersEntry",
+        "path": "purchase-order/approved-suppliersentry",
+        "href": "/roadmaperp_28_1_ai/purchase-order/approved-suppliersentry"
+      },
+      {
+        "name": "Tolerance %",
+        "slug": "tolerance-percent",
+        "id": "purchaseOrderTolerance",
+        "path": "purchase-order/tolerance-percent",
+        "href": "/roadmaperp_28_1_ai/purchase-order/tolerance-percent"
+      },
+      {
+        "name": "Supplier Performance",
+        "slug": "supplier-performance",
+        "id": "purchaseOrderSupplierPerformance",
+        "path": "purchase-order/supplier-performance",
+        "href": "/roadmaperp_28_1_ai/purchase-order/supplier-performance"
+      },
+      {
+        "name": "Share of business",
+        "slug": "share-of-business",
+        "id": "purchaseOrderShareOfBusiness",
+        "path": "purchase-order/share-of-business",
+        "href": "/roadmaperp_28_1_ai/purchase-order/share-of-business"
+      },
+      {
+        "name": "Price list Entry",
+        "slug": "price-list-entry",
+        "id": "purchaseOrderPriceListEntry",
+        "path": "purchase-order/price-list-entry",
+        "href": "/roadmaperp_28_1_ai/purchase-order/price-list-entry"
+      },
+      {
+        "name": "Open/Blanket PO Entry",
+        "slug": "open-blanket-po-entry",
+        "id": "purchaseOrderOpenBlanketPOEntry",
+        "path": "purchase-order/open-blanket-po-entry",
+        "href": "/roadmaperp_28_1_ai/purchase-order/open-blanket-po-entry"
+      },
+      {
+        "name": "Open/Blanket PO Amnd. /Entry",
+        "slug": "open-blanket-po-amnd-entry",
+        "id": "purchaseOrderOpenBlanketPOAmndEntry",
+        "path": "purchase-order/open-blanket-po-amnd-entry",
+        "href": "/roadmaperp_28_1_ai/purchase-order/open-blanket-po-amnd-entry"
+      },
+      {
+        "name": "Supplier Schedule Request",
+        "slug": "supplier-schedule-request",
+        "id": "purchaseOrderSupplierScheduleRequest",
+        "path": "purchase-order/supplier-schedule-request",
+        "href": "/roadmaperp_28_1_ai/purchase-order/supplier-schedule-request"
+      },
+      {
+        "name": "Supplier Schedule Order from SSR",
+        "slug": "supplier-schedule-order-from-ssr",
+        "id": "purchaseOrderSupplierScheduleOrderFromSSR",
+        "path": "purchase-order/supplier-schedule-order-from-ssr",
+        "href": "/roadmaperp_28_1_ai/purchase-order/supplier-schedule-order-from-ssr"
+      },
+      {
+        "name": "Direct Supplier Schedule Order",
+        "slug": "direct-supplier-schedule-order",
+        "id": "purchaseOrderDirectSupplierScheduleOrder",
+        "path": "purchase-order/direct-supplier-schedule-order",
+        "href": "/roadmaperp_28_1_ai/purchase-order/direct-supplier-schedule-order"
+      },
+      {
+        "name": "Purchase Request",
+        "slug": "purchase-request",
+        "id": "purchaseOrderPurchaseRequest",
+        "path": "purchase-order/purchase-request",
+        "href": "/roadmaperp_28_1_ai/purchase-order/purchase-request"
+      },
+      {
+        "name": "Purchase Request Stock Details",
+        "slug": "purchase-request-stock-details",
+        "id": "purchaseOrderPurchaseRequestStockDetails",
+        "path": "purchase-order/purchase-request-stock-details",
+        "href": "/roadmaperp_28_1_ai/purchase-order/purchase-request-stock-details"
+      },
+      {
+        "name": "Purchase Request Cancel",
+        "slug": "purchase-request-cancel",
+        "id": "purchaseOrderPurchaseRequestCancel",
+        "path": "purchase-order/purchase-request-cancel",
+        "href": "/roadmaperp_28_1_ai/purchase-order/purchase-request-cancel"
+      },
+      {
+        "name": "Purchase Request Close short",
+        "slug": "purchase-request-close-short",
+        "id": "purchaseOrderPurchaseRequestCloseShort",
+        "path": "purchase-order/purchase-request-close-short",
+        "href": "/roadmaperp_28_1_ai/purchase-order/purchase-request-close-short"
+      },
+      {
+        "name": "Request for Quotation",
+        "slug": "request-for-quotation",
+        "id": "purchaseOrderRequestForQuotation",
+        "path": "purchase-order/request-for-quotation",
+        "href": "/roadmaperp_28_1_ai/purchase-order/request-for-quotation"
+      },
+      {
+        "name": "Quotation to PO Conversion",
+        "slug": "quotation-to-po-conversion",
+        "id": "purchaseOrderQuotationToPOConversion",
+        "path": "purchase-order/quotation-to-po-conversion",
+        "href": "/roadmaperp_28_1_ai/purchase-order/quotation-to-po-conversion"
+      },
+      {
+        "name": "Purchase Order",
+        "slug": "purchase-order",
+        "id": "purchaseOrderPurchaseOrder",
+        "path": "purchase-order/purchase-order",
+        "href": "/roadmaperp_28_1_ai/purchase-order/purchase-order"
+      },
+      {
+        "name": "Purchase Order Cancellation",
+        "slug": "purchase-order-cancellation",
+        "id": "purchaseOrderPurchaseOrderCancellation",
+        "path": "purchase-order/purchase-order-cancellation",
+        "href": "/roadmaperp_28_1_ai/purchase-order/purchase-order-cancellation"
+      },
+      {
+        "name": "PO Amendment",
+        "slug": "po-amendment",
+        "id": "purchaseOrderPOAmendment",
+        "path": "purchase-order/po-amendment",
+        "href": "/roadmaperp_28_1_ai/purchase-order/po-amendment"
+      },
+      {
+        "name": "Pending Inward (PO)",
+        "slug": "pending-inward-po",
+        "id": "purchaseOrderPendingInwardPO",
+        "path": "purchase-order/pending-inward-po",
+        "href": "/roadmaperp_28_1_ai/purchase-order/pending-inward-po"
+      },
+      {
+        "name": "Inward (Norm. Mat.)",
+        "slug": "inward-norm-mat",
+        "id": "purchaseOrderInwardNormMat",
+        "path": "purchase-order/inward-norm-mat",
+        "href": "/roadmaperp_28_1_ai/purchase-order/inward-norm-mat"
+      },
+      {
+        "name": "GRN PR from Pending PO",
+        "slug": "grn-pr-from-pending-po",
+        "id": "purchaseOrderGRNPRFromPendingPO",
+        "path": "purchase-order/grn-pr-from-pending-po",
+        "href": "/roadmaperp_28_1_ai/purchase-order/grn-pr-from-pending-po"
+      },
+      {
+        "name": "GRN PR",
+        "slug": "grn-pr",
+        "id": "purchaseOrderGRNPR",
+        "path": "purchase-order/grn-pr",
+        "href": "/roadmaperp_28_1_ai/purchase-order/grn-pr"
+      },
+      {
+        "name": "Material Issuance Voucher",
+        "slug": "material-issuance-voucher",
+        "id": "purchaseOrderMaterialIssuanceVoucher",
+        "path": "purchase-order/material-issuance-voucher",
+        "href": "/roadmaperp_28_1_ai/purchase-order/material-issuance-voucher"
+      },
+      {
+        "name": "Material Receipt Voucher",
+        "slug": "material-receipt-voucher",
+        "id": "purchaseOrderMaterialReceiptVoucher",
+        "path": "purchase-order/material-receipt-voucher",
+        "href": "/roadmaperp_28_1_ai/purchase-order/material-receipt-voucher"
+      },
+      {
+        "name": "Debit Note",
+        "slug": "debit-note",
+        "id": "purchaseOrderDebitNote",
+        "path": "purchase-order/debit-note",
+        "href": "/roadmaperp_28_1_ai/purchase-order/debit-note"
+      }
+    ]
+  },
+  {
+    "title": "Gate Entry",
+    "slug": "gate-entry",
+    "icon": "bi bi-door-open-fill",
+    "items": [
+      {
+        "name": "Setup - Gate Entry/Entity",
+        "slug": "setup-gate-entry-entity",
+        "id": "gateEntrySetupGateEntryEntity",
+        "path": "gate-entry/setup-gate-entry-entity",
+        "href": "/roadmaperp_28_1_ai/gate-entry/setup-gate-entry-entity"
+      },
+      {
+        "name": "Unit",
+        "slug": "unit",
+        "id": "gateEntryUnit",
+        "path": "gate-entry/unit",
+        "href": "/roadmaperp_28_1_ai/gate-entry/unit"
+      },
+      {
+        "name": "Gate Entry",
+        "slug": "gate-entry",
+        "id": "gateEntryGateEntry",
+        "path": "gate-entry/gate-entry",
+        "href": "/roadmaperp_28_1_ai/gate-entry/gate-entry"
+      },
+      {
+        "name": "Gate Keeper",
+        "slug": "gate-keeper",
+        "id": "gateEntryGateKeeper",
+        "path": "gate-entry/gate-keeper",
+        "href": "/roadmaperp_28_1_ai/gate-entry/gate-keeper"
+      },
+      {
+        "name": "Gate Entry Inward/Outward",
+        "slug": "gate-entry-inward-outward",
+        "id": "gateEntryGateEntryInwardOutward",
+        "path": "gate-entry/gate-entry-inward-outward",
+        "href": "/roadmaperp_28_1_ai/gate-entry/gate-entry-inward-outward"
+      },
+      {
+        "name": "Delivery Challan",
+        "slug": "delivery-challan",
+        "id": "gateEntryDeliveryChallan",
+        "path": "gate-entry/delivery-challan",
+        "href": "/roadmaperp_28_1_ai/gate-entry/delivery-challan"
+      },
+      {
+        "name": "Visitor Appointment",
+        "slug": "visitor-appointment",
+        "id": "gateEntryVisitorAppointment",
+        "path": "gate-entry/visitor-appointment",
+        "href": "/roadmaperp_28_1_ai/gate-entry/visitor-appointment"
+      },
+      {
+        "name": "Visitor Gate Pass",
+        "slug": "visitor-gate-pass",
+        "id": "gateEntryVisitorGatePass",
+        "path": "gate-entry/visitor-gate-pass",
+        "href": "/roadmaperp_28_1_ai/gate-entry/visitor-gate-pass"
+      },
+      {
+        "name": "Returnable DC",
+        "slug": "returnable-dc",
+        "id": "gateEntryReturnableDC",
+        "path": "gate-entry/returnable-dc",
+        "href": "/roadmaperp_28_1_ai/gate-entry/returnable-dc"
+      }
+    ]
+  },
+  {
+    "title": "Inventory Control",
+    "slug": "inventory-control",
+    "icon": "bi bi-boxes",
+    "items": [
+      {
+        "name": "Appl. Control (Inventory Control)",
+        "slug": "appl-control-inventory-control",
+        "id": "inventoryControlApplCtrl",
+        "path": "inventory-control/appl-control-inventory-control",
+        "href": "/roadmaperp_28_1_ai/inventory-control/appl-control-inventory-control"
+      },
+      {
+        "name": "Major Class",
+        "slug": "major-class",
+        "id": "inventoryControlMajorClass",
+        "path": "inventory-control/major-class",
+        "href": "/roadmaperp_28_1_ai/inventory-control/major-class"
+      },
+      {
+        "name": "Classes",
+        "slug": "classes",
+        "id": "inventoryControlClasses",
+        "path": "inventory-control/classes",
+        "href": "/roadmaperp_28_1_ai/inventory-control/classes"
+      },
+      {
+        "name": "Sub Classes",
+        "slug": "sub-classes",
+        "id": "inventoryControlSubClasses",
+        "path": "inventory-control/sub-classes",
+        "href": "/roadmaperp_28_1_ai/inventory-control/sub-classes"
+      },
+      {
+        "name": "UOM",
+        "slug": "uom",
+        "id": "inventoryControlUOM",
+        "path": "inventory-control/uom",
+        "href": "/roadmaperp_28_1_ai/inventory-control/uom"
+      },
+      {
+        "name": "Item Group",
+        "slug": "item-group",
+        "id": "inventoryControlItemGroup",
+        "path": "inventory-control/item-group",
+        "href": "/roadmaperp_28_1_ai/inventory-control/item-group"
+      },
+      {
+        "name": "Sub Group",
+        "slug": "sub-group",
+        "id": "inventoryControlSubGroup",
+        "path": "inventory-control/sub-group",
+        "href": "/roadmaperp_28_1_ai/inventory-control/sub-group"
+      },
+      {
+        "name": "Model",
+        "slug": "model",
+        "id": "inventoryControlModel",
+        "path": "inventory-control/model",
+        "href": "/roadmaperp_28_1_ai/inventory-control/model"
+      },
+      {
+        "name": "Make",
+        "slug": "make",
+        "id": "inventoryControlMake",
+        "path": "inventory-control/make",
+        "href": "/roadmaperp_28_1_ai/inventory-control/make"
+      },
+      {
+        "name": "Warehouse",
+        "slug": "warehouse",
+        "id": "inventoryControlWarehouse",
+        "path": "inventory-control/warehouse",
+        "href": "/roadmaperp_28_1_ai/inventory-control/warehouse"
+      },
+      {
+        "name": "Item Entity Level",
+        "slug": "item-entity-level",
+        "id": "inventoryControlItemEntityLevel",
+        "path": "inventory-control/item-entity-level",
+        "href": "/roadmaperp_28_1_ai/inventory-control/item-entity-level"
+      },
+      {
+        "name": "Item Unit Association",
+        "slug": "item-unit-association",
+        "id": "inventoryControlItemUnitAssociation",
+        "path": "inventory-control/item-unit-association",
+        "href": "/roadmaperp_28_1_ai/inventory-control/item-unit-association"
+      },
+      {
+        "name": "Item Conv. Factor",
+        "slug": "item-conv-factor",
+        "id": "inventoryControlItemConvFactor",
+        "path": "inventory-control/item-conv-factor",
+        "href": "/roadmaperp_28_1_ai/inventory-control/item-conv-factor"
+      },
+      {
+        "name": "Item W/H Association",
+        "slug": "item-w-h-association",
+        "id": "inventoryControlItemWHAssociation",
+        "path": "inventory-control/item-w-h-association",
+        "href": "/roadmaperp_28_1_ai/inventory-control/item-w-h-association"
+      },
+      {
+        "name": "Adjustment Prefix",
+        "slug": "adjustment-prefix",
+        "id": "inventoryControlAdjustmentPrefix",
+        "path": "inventory-control/adjustment-prefix",
+        "href": "/roadmaperp_28_1_ai/inventory-control/adjustment-prefix"
+      },
+      {
+        "name": "Material Request",
+        "slug": "material-request",
+        "id": "inventoryControlMaterialRequest",
+        "path": "inventory-control/material-request",
+        "href": "/roadmaperp_28_1_ai/inventory-control/material-request"
+      },
+      {
+        "name": "Material Issuance Voucher",
+        "slug": "material-issuance-voucher",
+        "id": "inventoryControlMaterialIssuanceVoucher",
+        "path": "inventory-control/material-issuance-voucher",
+        "href": "/roadmaperp_28_1_ai/inventory-control/material-issuance-voucher"
+      },
+      {
+        "name": "Material Receipt Voucher",
+        "slug": "material-receipt-voucher",
+        "id": "inventoryControlMaterialReceiptVoucher",
+        "path": "inventory-control/material-receipt-voucher",
+        "href": "/roadmaperp_28_1_ai/inventory-control/material-receipt-voucher"
+      },
+      {
+        "name": "Stocks",
+        "slug": "stocks",
+        "id": "inventoryControlStocks",
+        "path": "inventory-control/stocks",
+        "href": "/roadmaperp_28_1_ai/inventory-control/stocks"
+      },
+      {
+        "name": "Material Return",
+        "slug": "material-return",
+        "id": "inventoryControlMaterialReturn",
+        "path": "inventory-control/material-return",
+        "href": "/roadmaperp_28_1_ai/inventory-control/material-return"
+      },
+      {
+        "name": "CM Receipts (CMR)",
+        "slug": "cm-receipts-cmr",
+        "id": "inventoryControlCMReceiptsCMR",
+        "path": "inventory-control/cm-receipts-cmr",
+        "href": "/roadmaperp_28_1_ai/inventory-control/cm-receipts-cmr"
+      },
+      {
+        "name": "CM Return (CMRR)",
+        "slug": "cm-return-cmrr",
+        "id": "inventoryControlCMReturnCMRR",
+        "path": "inventory-control/cm-return-cmrr",
+        "href": "/roadmaperp_28_1_ai/inventory-control/cm-return-cmrr"
+      },
+      {
+        "name": "Stock Adjustment",
+        "slug": "stock-adjustment",
+        "id": "inventoryControlStockAdjustment",
+        "path": "inventory-control/stock-adjustment",
+        "href": "/roadmaperp_28_1_ai/inventory-control/stock-adjustment"
+      },
+      {
+        "name": "Stock QC",
+        "slug": "stock-qc",
+        "id": "inventoryControlStockQC",
+        "path": "inventory-control/stock-qc",
+        "href": "/roadmaperp_28_1_ai/inventory-control/stock-qc"
+      },
+      {
+        "name": "Inspection Document (Stock QC)",
+        "slug": "inspection-document-stock-qc",
+        "id": "inventoryControlInspectionDocumentStockQC",
+        "path": "inventory-control/inspection-document-stock-qc",
+        "href": "/roadmaperp_28_1_ai/inventory-control/inspection-document-stock-qc"
+      },
+      {
+        "name": "Stock Count Entries",
+        "slug": "stock-count-entries",
+        "id": "inventoryControlStockCountEntries",
+        "path": "inventory-control/stock-count-entries",
+        "href": "/roadmaperp_28_1_ai/inventory-control/stock-count-entries"
+      },
+      {
+        "name": "Stock Count Comparison",
+        "slug": "stock-count-comparison",
+        "id": "inventoryControlStockCountComparison",
+        "path": "inventory-control/stock-count-comparison",
+        "href": "/roadmaperp_28_1_ai/inventory-control/stock-count-comparison"
+      },
+      {
+        "name": "SCO Opening Balance",
+        "slug": "sco-opening-balance",
+        "id": "inventoryControlSCOOpeningBalance",
+        "path": "inventory-control/sco-opening-balance",
+        "href": "/roadmaperp_28_1_ai/inventory-control/sco-opening-balance"
+      },
+      {
+        "name": "Std. Cost",
+        "slug": "std-cost",
+        "id": "inventoryControlStdCost",
+        "path": "inventory-control/std-cost",
+        "href": "/roadmaperp_28_1_ai/inventory-control/std-cost"
+      },
+      {
+        "name": "Lot/Serial Expiry Updation",
+        "slug": "lot-serial-expiry-updation",
+        "id": "inventoryControlLotSerialExpiryUpdation",
+        "path": "inventory-control/lot-serial-expiry-updation",
+        "href": "/roadmaperp_28_1_ai/inventory-control/lot-serial-expiry-updation"
+      }
+    ]
+  }
+]
