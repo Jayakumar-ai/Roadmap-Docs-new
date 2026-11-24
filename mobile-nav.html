@@ -1,0 +1,183 @@
+<style>
+  #mnav-accordian {
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+    max-height: calc(100vh - 69px);
+  }
+  #mnav-accordian .accordion-item,
+  #mnav-accordian .accordion-header {
+    border-radius: 0 !important;
+  }
+  #mnav-accordian #collapseThree .accordion-header {
+    border-bottom: 0 !important;
+  }
+  #mnav-accordian .accordion-header a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #mnav-accordian .accordion-button:focus {
+    box-shadow: none !important;
+  }
+  #mnav-accordian .accordion-button:not(.collapsed) {
+    background-color: #ffd9a9;
+    font-weight: 600;
+    border-radius: 0 !important;
+  }
+  #mnav-accordian #nestedAccordion .accordion-button:not(.collapsed) {
+    background-color: #ffe6c7;
+    font-weight: 600;
+    border-radius: 0 !important;
+  }
+  #mnav-accordian .accordion-body .accLink {
+    color: #000;
+    padding: 10px;
+    margin: 0;
+  }
+  #mnav-accordian .active-accLink {
+    background-color: #ffeed8;
+    font-weight: 600;
+  }
+</style>
+<div class="accordion w-75 h-100 bg-white pb-5" id="mnav-accordian">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Apps</button></h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#mnav-accordian">
+      <div class="accordion-body px-1 py-1">
+        <div class="accordion" id="nestedAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="nestedHeadingOne"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#nestedCollapseOne" aria-expanded="false" aria-controls="nestedCollapseOne">Products</button></h2>
+            <div id="nestedCollapseOne" class="accordion-collapse collapse" aria-labelledby="nestedHeadingOne" data-bs-parent="#nestedAccordion">
+              <div class="accordion-body px-1 py-1">
+                <a href="https://roadmapit.com/erp-software.html" class="d-block accLink">ERP</a>
+                <a href="https://roadmapit.com/trade-pluz.html" class="d-block accLink">Trade Plus</a>
+                <a href="https://roadmapit.com/core-hr.html" class="d-block accLink">Core HR</a>
+                <a href="https://roadmapit.com/crm.html" class="d-block accLink">CRM</a>
+                <a href="https://roadmapit.com/fsm.html" class="d-block accLink">Field Services</a>
+                <a href="https://roadmapit.com/fixed-assets-management.html" class="d-block accLink">Assets Manager</a>
+                <a href="https://roadmapit.com/plant-maintenance.html" class="d-block accLink">Plant Maintenance</a>
+                <a href="https://roadmapit.com/project-management.html" class="d-block accLink">Project Management</a>
+                <a href="https://roadmapit.com/travel-and-expenses.html" class="d-block accLink">Travel & Expenses</a>
+                <a href="https://roadmapit.com/pos-retail.html" class="d-block accLink">POS Retail</a>
+                <a href="https://roadmapit.com/pos-restaurant.html" class="d-block accLink">POS Restaurant</a>
+                <a href="https://roadmapit.com/ticket-management.html" class="d-block accLink">Ticket Management</a>
+                <a href="https://roadmapit.com/daybook.html" class="d-block accLink">DayBook</a>
+                <a href="https://roadmapit.com/edsyz.html" class="d-block accLink">Edsyz</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="nestedHeadingTwo"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#nestedCollapseTwo" aria-expanded="false" aria-controls="nestedCollapseTwo">Services</button></h2>
+            <div id="nestedCollapseTwo" class="accordion-collapse collapse" aria-labelledby="nestedHeadingTwo" data-bs-parent="#nestedAccordion">
+              <div class="accordion-body px-1 pt-1">
+                <a href="https://roadmapit.com/services/oracle-apex.html" class="d-block accLink">Oracle APEX</a>
+                <a href="https://roadmapit.com/services/cloud-infrastructure.html" class="d-block accLink">Cloud Infrastructure</a>
+                <a href="https://roadmapit.com/services/oracle-forms-reports.html" class="d-block accLink">Oracle Forms & Reports</a>
+                <a href="https://roadmapit.com/services/oracle-dba.html" class="d-block accLink">Oracle DBA</a>
+                <a href="https://roadmapit.com/services/mobile-app.html" class="d-block accLink">Mobile Development</a>
+                <a href="https://roadmapit.com/services/website-desktop-development.html" class="d-block accLink">Web & Desktop Apps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo"><a href="https://roadmapit.com/industries.html" class="btn px-3 py-3 w-100 text-start">Industries</a></h2>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Community</button></h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#mnav-accordian">
+      <div class="accordion-body px-1 pt-1">
+        <div class="accordion" id="nestedAccordionCommunity">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="aboutusHeading"><a href="https://roadmapit.com/about-us.html" class="btn px-3 py-3 w-100 text-start">About Us</a></h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="resourceHeading"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#resourceCollapse" aria-expanded="false" aria-controls="resourceCollapse">Resource</button></h2>
+            <div id="resourceCollapse" class="accordion-collapse collapse" aria-labelledby="resourceHeading" data-bs-parent="#nestedAccordionCommunity">
+              <div class="accordion-body px-1 pt-1">
+                <a href="#" class="d-block accLink">Brochures</a>
+                <a href="#" class="d-block accLink">Case Studies</a>
+                <div class="accordion" id="resourceVideosAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="resourceVideos"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#resourceVideoCollapse" aria-expanded="false" aria-controls="resourceVideoCollapse">Videos</button></h2>
+                    <div id="resourceVideoCollapse" class="accordion-collapse collapse" aria-labelledby="resourceVideos" data-bs-parent="#resourceVideosAccordion">
+                      <div class="accordion-body px-1 pt-1">
+                        <a href="https://roadmapit.com/erp-tutorials.html" class="d-block accLink">ERP Tutorials</a>
+                        <a href="https://roadmapit.com/industrial-videos.html" class="d-block accLink">ERP Verticals</a>
+                        <a href="https://roadmapit.com/roadmap-clients-testimonial.html" class="d-block accLink">Clients Testimonial</a>
+                        <a href="https://roadmapit.com/videos.html" class="d-block accLink">Events</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="knowledgeHeading"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#knowledgeCollapse" aria-expanded="false" aria-controls="knowledgeCollapse">Knowledge</button></h2>
+            <div id="knowledgeCollapse" class="accordion-collapse collapse" aria-labelledby="knowledgeHeading" data-bs-parent="#nestedAccordionCommunity">
+              <div class="accordion-body px-1 pt-1">
+                <a href="https://docs.roadmapit.com/" class="d-block accLink">Documentation</a>
+                <a href="https://roadmapit.com/blogs.html" class="d-block accLink">Blog</a>
+                <a href="https://roadmapit.com/verify-certificate.html" class="d-block accLink">Training Certificates</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="partnersHeading"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#partnersCollapse" aria-expanded="false" aria-controls="partnersCollapse">Partners</button></h2>
+            <div id="partnersCollapse" class="accordion-collapse collapse" aria-labelledby="partnersHeading" data-bs-parent="#nestedAccordionCommunity">
+              <div class="accordion-body px-1 pt-1">
+                <a href="https://roadmapit.com/partners.html" class="d-block accLink">Why partner with Roadmap?</a>
+                <a href="https://roadmapit.com/partners.html" class="d-block accLink">Affiliate Partner</a>
+                <a href="https://roadmapit.com/partners.html" class="d-block accLink">Implementation Partner</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="portalsHeading"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#portalsCollapse" aria-expanded="false" aria-controls="portalsCollapse">Portals</button></h2>
+            <div id="portalsCollapse" class="accordion-collapse collapse" aria-labelledby="portalsHeading" data-bs-parent="#nestedAccordionCommunity">
+              <div class="accordion-body px-1 pt-1">
+                <a href="https://roadmapit.com/ess-login.html" class="d-block accLink">Employee Login</a>
+                <a href="https://roadmapit.com/support-login.html" class="d-block accLink">Support Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive"><a href="https://roadmapit.com/contact-us.html" class="btn px-3 py-3 w-100 text-start">Contact</a></h2>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    var currentPath = window.location.pathname;
+    $('.accLink').each(function () {
+      var link = $(this).attr('href');
+      if (link === currentPath) {
+        $(this).addClass('active-accLink');
+        var parentCollapse = $(this).closest('.accordion-collapse');
+        parentCollapse.addClass('show');
+        var parentButton = parentCollapse.prev('.accordion-header').find('.accordion-button');
+        parentButton.removeClass('collapsed').attr('aria-expanded', 'true');
+        $(this)
+          .parents('.accordion-collapse')
+          .each(function () {
+            $(this).addClass('show');
+            var btn = $(this).prev('.accordion-header').find('.accordion-button');
+            btn.removeClass('collapsed').attr('aria-expanded', 'true');
+          });
+      }
+    });
+    $('.accordion-header a.btn').each(function () {
+      var link = $(this).attr('href');
+      if (link === currentPath) {
+        $(this).addClass('active-accLink');
+      }
+    });
+  });
+</script>

@@ -1,0 +1,86 @@
+<div data-category="Inventory Control" data-title="Appl. Control" data-updated="November 23, 2026" data-contributors="RoadmapIT" data-breadcrumb="Home,Inventory Control,Appl. Control">
+  <div class="page-content">
+    <p>Application Control in Inventory control Management involves configuring the essential settings and parameters that govern the inventory process. This includes defining approval workflows, setting user permissions, and establishing business rules to ensure a streamlined, secure, and efficient inventory process.</p>
+    <h5>Navigation path</h5>
+    <p class="fs-6">Supply Chain \ Inventory \Setup\Setup-Inventory</p>
+    <img src="../assets/img/inv-28-1-appl-control-1.webp" alt="Appl. Control 1" class="img-fluid shadow mb-3 cusBorImg" />
+    <p class="text-center fst-italic small">Figure 1.1</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Click Update to make the changes</li>
+    </ul>
+    <img src="../assets/img/inv-28-1-appl-control-2.webp" alt="Appl. Control 2" class="img-fluid shadow mb-3 cusBorImg" />
+    <p class="text-center fst-italic small">Figure 1.2</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto MR approve (MFG)</strong></li>
+    </ul>
+    <p>While creating the completion record in Production Order, MR will be created.</p>
+    <p class="ms-4">If the Flag is <u>checked</u>, the MR will be auto approved and displayed in ICM1020 i.e. ready for issuance creation</p>
+    <p>If <u>Unchecked</u>, the MR will be created and displayed as a new status record.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto MR approve (SC)</strong></li>
+    </ul>
+    <p>While creating the completion record in Subcontract Order, MR will be created</p>
+    <p class="ms-4">If the Flag is <u>checked</u>, the MR will be auto approved and displayed in ICM1020 i.e. ready for issuance creation</p>
+    <p>If <u>Unchecked</u>, the MR will be created and displayed as a new status record.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>MR to PR</strong></li>
+    </ul>
+    <p class="ms-4">If the flag is checked, Purchase request is created automatically when the stock of the material is less to allocate for production. Else, purchase request should be created manually if material is devoid of stocks.<strong>Allow Partial issue</strong></p>
+    <p>The Material issuance can be done partially if the flag is checked and vice versa.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto MR Allocation</strong></li>
+    </ul>
+    <p class="ms-4">After approving the Material Request, Materials are allocated automatically, if the flag is enabled</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto MR Issue</strong></li>
+    </ul>
+    <p class="ms-4">MR created during the approval of SCO is approved, issued and DC will be created automatically when the flag is checked. Auto Issuance is done only when sufficient stock exist for the material. If stock is low, the record will be in ICM1020</p>
+    <p>If Unchecked, Only the New status MR will be created.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto Issuance Post</strong></li>
+    </ul>
+    <p class="ms-4">If enabled - After creating the material request, allocation of Material request is not required; hence the material issuance can be created directly and posted automatically.</p>
+    <p class="ms-4">If Disabled – Material request should be allocated and issued manually passing through subsequent screens.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto Issuance Post (Sales Return Stk. Trans.)</strong></li>
+    </ul>
+    <p class="ms-4">If enabled - After creating the material request, allocation of Material request is not required; hence the material issuance can be created directly and posted automatically.</p>
+    <p class="ms-4">If Disabled – Material request should be allocated and issued manually passing through subsequent screens.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto CMR Post</strong></li>
+    </ul>
+    <p class="ms-4">Customer Material Receipt document can be auto posted, if the flag is enabled.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Allow CMR Gate Entry</strong></li>
+    </ul>
+    <p class="ms-4">Gate entry document is created for the Customer Material receipt if the flag is enabled</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Freeze Stock Trans</strong></li>
+    </ul>
+    <p class="ms-4">If the Flag is checked, the stock transaction will be suspended for the <strong>Freeze date</strong> given and no more transactions can be proceed further.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Allow backlog Entry</strong></li>
+    </ul>
+    <p>If the flag is checked, user can create the back dated entries</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto Create PR/MR from Reorder</strong></li>
+    </ul>
+    <p class="ms-4">To create Purchase requests / Material requests based on the reorder Qty automatically, enable the flag</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Weigh Bridge Required</strong></li>
+    </ul>
+    <p class="ms-4">If the flag is checked, Weigh Bridge value is mandatorily to be given.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Max Buyers allowed</strong></li>
+    </ul>
+    <p class="ms-4">The maximum number of buyers allowed to define in the users will be specified in the field provided.</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto Creation MRV</strong></li>
+    </ul>
+    <p class="ms-4">Material Receipt voucher is created automatically when this flag is enabled during process completion</p>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Auto Post MRV</strong></li>
+    </ul>
+    <p class="ms-4">To auto post the Material Receipt voucher, enable this Flag.</p>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+<div data-category="Sales Order" data-title="Application Control Sales" data-updated="December 01, 2025" data-contributors="RoadmapIT" data-breadcrumb="Home,Sales Order,Application Control Sales">
+  <div class="page-content">
+    <p>This screen is used to define the application control details of Sales order management.</p>
+
+    <h5>Navigation Path</h5>
+    <p class="fs-6">Supply Chain \ Sales \ Setup \ Setup-Sales \ Appl.ctrl-Sales</p>
+    <img src="../assets/img/sales-order-application-control-sales-01.webp" alt="Application Control Sales Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <h2>Account</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Sales Account</strong> - Net Sales: If discount % is set for the Sales, the amount is deducted from the total amount and Journal will be created after deduction. But the deduction is not mentioned in the Journal. Gross Sales: If discount % is set for the Sales, the amount is deducted from the total amount and Journal will be created. A separate line will be displayed in the journal to indicate the discount deduction.</li>
+      <li class="mouse-icon"><strong>Sales Account Level</strong> - The type of account on which the sales invoice should be created. It is categorized as Unit: The sales invoice is created based on the class/subclass definition for the unit defined in the Application accounts. Unit: Area Wise: The sales invoice is created based on the class/subclass definition for the Area wise defined in the Application accounts. Unit: Territory Wise: The sales invoice is created based on the class/subclass definition for the Territory wise defined in the Application accounts.</li>
+      <li class="mouse-icon"><strong>Sales Rounded Off</strong> - The Round off values for the Tax charges if decimal values exist while creating the sales invoice journal is defined here for ED, CESS, SHEC, VAT/CST, Service tax, CESS on Service tax, SHEC on Service tax, GST Decimal Service Tax.</li>
+    </ul>
+
+    <h2>Sales Invoice</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Allow to create Date wise invoice</strong> - The Sales Invoice document created sequentially based on the Date if the flag is checked. If unchecked, the sales invoice is created irrespective of the date.</li>
+      <li class="mouse-icon"><strong>Allow to cancel Sales Invoice</strong> - If the flag is checked, the sales invoice can be cancelled even after generating the invoice number else the sales invoice cannot be cancelled.</li>
+      <li class="mouse-icon"><strong>No Financial Implications</strong> - When the document is invoiced, the financial processes for the invoice will be implicated only when the flag is unchecked.</li>
+      <li class="mouse-icon"><strong>COGS Journal Rqrd.</strong> - If the flag is checked, Price Journal will be created against the Sales Account. Cost Of Goods Journal is only applicable for Perpetual Type.</li>
+      <li class="mouse-icon"><strong>Fixed Asset Rqrd.</strong> - If the flag is checked, Fixed Asset should be created for Item against Class type Fixed Asset.</li>
+      <li class="mouse-icon"><strong>Shipset Line Stock Required</strong> - If the flag is checked, the stock is required for the Shipset Line Items.</li>
+      <li class="mouse-icon"><strong>Sales Invoice Cre. Based on Cust. PO</strong> - If the flag is checked, The Customer PO Number and PO date is required for the Sales Invoice document.</li>
+      <li class="mouse-icon"><strong>STO Cons. Rqrd</strong> - If the Flag is checked, then the Stock Transfer Order is required for the consumption items.</li>
+      <li class="mouse-icon"><strong>Cust PO Rqrd</strong> - If the Flag is checked, then the PO number should be given in the Invoice document.</li>
+    </ul>
+
+    <h2>Sales Order</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>SO to Invoice Price Check (Open Order)</strong> - If the flag is checked, the current open Order price is considered and the SI is created for the current open order Price. For example: Open order is created for FG1001 of Price Rs. 100 for the date 01.04.2024 to 31.05.2024. Create Sales Order on 01.05.2024. The price for the item is taken as Rs. 100. Amend the open Order on 15.05.2024 and increase the price as Rs.200. Now create SI for the SO, the price of Rs. 200 is taken for invoice if the flag is Checked. Now create SI for the SO, the price of Rs. 100 is taken for invoice if the flag is Unchecked.</li>
+      <li class="mouse-icon"><strong>SO/CS to Inv (Stock Req.)</strong> - If the flag is checked, the stock quantity of the item will be checked before creating invoice for the sales order / customer schedule. Else the stock qty will not be checked and invoice can be created.</li>
+      <li class="mouse-icon"><strong>Allow Completed SO</strong> - If flag is enabled, Completed Sales Order Details Also shown in the purchase.</li>
+      <li class="mouse-icon"><strong>Cust PO Rqrd</strong> - If the Flag is checked, then the PO number should be given in the Invoice document.</li>
+    </ul>
+
+    <h2>Customer Schedule</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Hold Customer Schedule</strong> - If number of schedules created for the customer and none of the schedule is invoiced, this control will not allow creating the invoice for further schedules for the customer if checked. Else, the invoice can be created for the customer schedule.</li>
+      <li class="mouse-icon"><strong>Customer Schedule</strong> - Week: While creating the customer schedule, if the bucket type is specified as Week, the configuration done here in the application control is considered. If the control is assigned as Start – Schedules will be created for the start of the Week. End – Schedules will be created for the end of the Week. Not Applicable – Schedule generation may not consider the control defined. Month: While creating the customer schedule, if the bucket type is specified as Month, the configuration done here in the application control is considered. If the control is assigned as Start – Schedules will be created for the start of the Month. End – Schedules will be created for the end of the Month. Not Applicable – Schedule generation may not consider the control defined.</li>
+    </ul>
+
+    <h2>Sales Return</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon"><strong>Allow Sales Rtn. To Pend Invoice</strong> - Once the Sales order is invoiced, when the customer returns the order qty partially, as like PO closure property, the Sales order remains pending in SOM1087 (Pending SO). The Order will be closed only when there is no return of qty from the customer. Hence if the customer returns the Qty, SO will be displayed in the Pending SO screen only if the flag is enabled else the SO will be closed and not displayed in SOM1087.</li>
+      <li class="mouse-icon"><strong>Upd. Price in Sales Rtn</strong> - During Sales Return if the price is to be amended this flag can be checked.</li>
+    </ul>
+
+    <h2>Duty Drawback</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Option can be selected whether the duty drawback document to be created Manually or automatically.</li>
+    </ul>
+
+    <h2>Credit Limit</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Credit Limit can be set against the customer in the customer master to define the number of invoices and the amount limit that can be made by the customer, wherein the checkbasis allows whether to check only on Sales invoice or both on Sales order and Invoice accordingly the action can be made against it such as to define the work flow or to stop the process.</li>
+    </ul>
+
+    <h2>Update Application Control</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">To make any changes in the setup, click the Update button and the screen will be redirected to the find screen.</li>
+    </ul>
+    <img src="../assets/img/sales-order-application-control-sales-02.webp" alt="Application Control Sales Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Click the <i class="bi bi-plus fs-5 mx-2 text-primary"></i> button to make the changes and the screen will be redirected to the application control screen where user can see the old setup and the changes can be made in the new setup.</li>
+    </ul>
+    <img src="../assets/img/sales-order-application-control-sales-03.webp" alt="Application Control Sales Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Make the necessary changes.</li>
+      <li class="mouse-icon">Click the <i class="bi bi-check-lg fs-5 mx-2 text-success"></i> save button.</li>
+      <li class="mouse-icon">Click the post button and the document will be forwarded for approval.</li>
+    </ul>
+    <img src="../assets/img/sales-order-application-control-sales-04.webp" alt="Application Control Sales Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <h2>Workflow Approval Process</h2>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">To process the document in Workflow approval, navigate to the approvals screen.</li>
+      <li class="mouse-icon">Click View Details <i class="bi bi-exclamation-circle fs-5 mx-2 text-primary"></i> to view the selected document.</li>
+      <li class="mouse-icon">Screen will navigate into query screen to check the details.</li>
+      <li class="mouse-icon">Now navigate back to the approval screen.</li>
+      <li class="mouse-icon">Select the Approval/forward/Return/Wait radio button and click Process button to perform the corresponding Workflow process on the selected document.</li>
+    </ul>
+  </div>
+</div>

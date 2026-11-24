@@ -1,0 +1,120 @@
+<div data-category="Sales Order" data-title="Sales Order" data-updated="December 01, 2025" data-contributors="RoadmapIT" data-breadcrumb="Home,Sales Order,Sales Order">
+  <div class="page-content">
+    <p>This screen is used to create the sale order for the customer and the details of the sales are given in the sales order screen.</p>
+
+    <h5>Navigation Path</h5>
+    <p class="fs-6">Supply Chain \ Sales \ Transactions \ Sales Order</p>
+
+    <img src="../assets/img/sales-order-sales-order-37.webp" alt="Sales Order Find Page" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Search screen displays the list of Sales Order with the relevant details and its status.</li>
+      <li class="mouse-icon">Click on search to filter all the records.</li>
+      <li class="mouse-icon">User can filter the respective documents by entering the search parameters at the header.</li>
+      <li class="mouse-icon">Using search, system displays the results relevant to the search parameters entered.</li>
+      <li class="mouse-icon">On clicking the record, the corresponding transaction record will be displayed.</li>
+      <li class="mouse-icon">
+        Using
+        <img width="20" src="../assets/img/Power_Clean_Ico.png" alt="brush" class="img-fluid mx-2" />
+        icon, entered search parameters can be cleared.
+      </li>
+      <li class="mouse-icon">
+        To close the screen, use
+        <i class="bi bi-x fs-4 mx-2 text-danger"></i>
+        icon.
+      </li>
+      <li class="mouse-icon">
+        By Clicking the
+        <i class="bi bi-plus fs-4 mx-2 text-primary"></i>
+        Add button we can create new Sales Order by entering all the mandatory fields displayed in the Add dialog.
+      </li>
+    </ul>
+    <img src="../assets/img/sales-order-sales-order-38.webp" alt="Create Sales Order Dialog" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Enter the Loc ID, unit is auto populated.</li>
+      <li class="mouse-icon">Select the Sales Order Type.</li>
+      <li class="mouse-icon">Enter/Select the Order No. prefix from the LOV.</li>
+      <li class="mouse-icon">Enter/Select the Customer from the LOV.</li>
+      <li class="mouse-icon">Enter/Select the currency for the customer from the LOV.</li>
+      <li class="mouse-icon">
+        Click
+        <i class="bi bi-check-lg fs-4 mx-1 text-success"></i>
+        button to create new sales Order.
+      </li>
+    </ul>
+    <img src="../assets/img/sales-order-sales-order-39.webp" alt="Create Sales Order Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Enter/Select the Line item from the LOV.</li>
+      <li class="mouse-icon">Enter the Quantity and Price for the line item (If the sales price basis is User Defined else price of the Item will be automatically taken from the rate contract).</li>
+      <li class="mouse-icon">Enter the Disc% or Discount amount for the item, the disc amount or the Disc% will be auto calculated respectively.</li>
+      <li class="mouse-icon">The Ship To and Bill To fields are auto populated with the customer. If necessary, the field can be changed by selecting from the LOV.</li>
+      <li class="mouse-icon">Enter the Tax charge for the sales order.</li>
+      <li class="mouse-icon">Enter the Amount of the Tax charge if the level is selected as Value.</li>
+      <li class="mouse-icon">Enter the Assessable value for the Tax charge.</li>
+      <li class="mouse-icon">Enter the % for the tax charge if the level is selected as %.</li>
+      <li class="mouse-icon">The Tax charge can be deleted using Delete button.</li>
+    </ul>
+    <h5><strong>Note:</strong></h5>
+    <p><strong>for price basis other than “User defined”,</strong> to populate the item in this screen, the Item Customer associate and saleable flag should be checked in the item master and Item unit association and accordingly it should be linked with customer item and the proper price basis screen. If the flag is not checked, user needs to configure the price basis manually in the price basis screen.</p>
+
+    <h5>Line Details</h5>
+    <p>User can use this button to update the Sale order and the details of the Line items such as Discount [Cash, Trade, Special], and used to check the Item based class and subclass are fetched properly.</p>
+    <img src="../assets/img/sales-order-sales-order-40.webp" alt="Sales Order Line Items Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">
+        Click
+        <i class="bi bi-check-lg fs-4 mx-1 text-success"></i>
+        to save the changes.
+      </li>
+    </ul>
+    <h5>Charges</h5>
+    <p>This Screen is to add charges against the items such as Loading/Unloading Charges, to add the charges user must check the Inl.Chrg Flag, the charges will be automatically added to the Line amount, if the flag is not checked then the charges won't be added to the Line amount.</p>
+    <img src="../assets/img/sales-order-sales-order-41.webp" alt="Line Details Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">
+        Click
+        <i class="bi bi-plus fs-4 mx-2 text-primary"></i>
+        button.
+      </li>
+      <li class="mouse-icon">Select basis as either "%" or "Value".</li>
+      <li class="mouse-icon">Select Charge Item ID.</li>
+      <li class="mouse-icon">Enter the percentage if the basis is selected as "%" or enter the value.</li>
+      <li class="mouse-icon">Select the HSN Code.</li>
+      <li class="mouse-icon">
+        Click
+        <i class="bi bi-check-lg fs-4 mx-1 text-success"></i>
+        to save.
+      </li>
+    </ul>
+    <img src="../assets/img/sales-order-sales-order-42.webp" alt="Charges Screen" class="img-fluid shadow mb-3 cusBorImg" />
+
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">On clicking post button, document is sent for Workflow approval.</li>
+      <li class="mouse-icon">To process the document in Workflow approval, navigate to approvals screen.</li>
+      <li class="mouse-icon">
+        Click View Details
+        <i class="bi bi-exclamation-circle fs-5 mx-2 text-primary"></i>
+        to view the selected document.
+      </li>
+      <li class="mouse-icon">Screen navigate into query screen to check the details.</li>
+      <li class="mouse-icon">Now navigate back to the approval screen.</li>
+      <li class="mouse-icon">Select the Approval/forward/Return radio button and click Process button to perform the corresponding Workflow process on the selected document.</li>
+    </ul>
+
+    <h5>Pending Sales Order</h5>
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">
+        Click
+        <i class="bi bi-speedometer2 fs-4 mx-2 text-muted"></i>
+        button in the find screen, all the pending quotation details will be displayed in the pending screen.
+      </li>
+    </ul>
+    <img src="../assets/img/sales-order-sales-order-pending-sales-order-43.webp" alt="Workflow Approval Screen" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Select the documents.</li>
+      <li class="mouse-icon">Click Create SO to create the Sale order against quotation.</li>
+      <li class="mouse-icon">Click Create customer to convert the lead as customer.</li>
+      <li class="mouse-icon">Click Details button to create a new items against the quotation.</li>
+      <li class="mouse-icon">Click Drop to drop the quotation.</li>
+    </ul>
+  </div>
+</div>

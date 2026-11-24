@@ -1,0 +1,113 @@
+<div data-category="Inventory Control" data-title="Appl. Control" data-updated="January 27, 2026" data-contributors="RoadmapIT" data-breadcrumb="Home,Inventory Control,Appl. Control">
+  <div class="page-content">
+    <p>Application Control in Inventory control Management involves configuring the essential settings and parameters that govern the inventory process. This includes defining approval workflows, setting user permissions, and establishing business rules to ensure a streamlined, secure, and efficient inventory process.</p>
+    <h5>Navigation path</h5>
+    <p class="fs-6">Supply Chain \ Inventory \ Setup \ Setup-Inventory</p>
+    <img src="../assets/img/inventory-appl-ctrl-1.webp" alt="Inventory Control Appl. Control" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">Click Update to make the changes</li>
+    </ul>
+    <img src="../assets/img/inventory-appl-ctrl-2.webp" alt="Inventory Control Appl. Control Details" class="img-fluid shadow mb-3 cusBorImg" />
+    <ul style="list-style-type: none; align-content: center">
+      <li class="mouse-icon">
+        <strong>Auto MR approve (MFG)</strong>
+        <br />
+        While creating the completion record in Production Order, MR will be created.
+        <br />
+        If the Flag is checked, the MR will be auto approved and displayed in ICM1020 i.e. ready for issuance creation
+        <br />
+        If Unchecked, the MR will be created and displayed as a new status record.
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto MR approve (SC)</strong>
+        <br />
+        While creating the completion record in Subcontract Order, MR will be created
+        <br />
+        If the Flag is checked, the MR will be auto approved and displayed in ICM1020 i.e. ready for issuance creation
+        <br />
+        If Unchecked, the MR will be created and displayed as a new status record.
+      </li>
+      <li class="mouse-icon">
+        <strong>MR to PR</strong>
+        <br />
+        If the flag is checked, Purchase request is created automatically when the stock of the material is less to allocate for production. Else, purchase request should be created manually if material is devoid of stocks.
+      </li>
+      <li class="mouse-icon">
+        <strong>Allow Partial issue</strong>
+        <br />
+        The Material issuance can be done partially if the flag is checked and vice versa.
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto MR Allocation</strong>
+        <br />
+        After approving the Material Request, Materials are allocated automatically, if the flag is enabled
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto MR Issue</strong>
+        <br />
+        MR created during the approval of SCO is approved, issued and DC will be created automatically when the flag is checked. Auto Issuance is done only when sufficient stock exist for the material. If stock is low, the record will be in ICM1020
+        <br />
+        If Unchecked, Only the New status MR will be created.
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto Issuance Post</strong>
+        <br />
+        If enabled - After creating the material request, allocation of Material request is not required; hence the material issuance can be created directly and posted automatically.
+        <br />
+        If Disabled – Material request should be allocated and issued manually passing through subsequent screens.
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto Issuance Post (Sales Return Stk. Trans.)</strong>
+        <br />
+        If enabled - After creating the material request, allocation of Material request is not required; hence the material issuance can be created directly and posted automatically.
+        <br />
+        If Disabled – Material request should be allocated and issued manually passing through subsequent screens.
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto CMR Post</strong>
+        <br />
+        Customer Material Receipt document can be auto posted, if the flag is enabled.
+      </li>
+      <li class="mouse-icon">
+        <strong>Allow CMR Gate Entry</strong>
+        <br />
+        Gate entry document is created for the Customer Material receipt if the flag is enabled
+      </li>
+      <li class="mouse-icon">
+        <strong>Freeze Stock Trans</strong>
+        <br />
+        If the Flag is checked, the stock transaction will be suspended for the Freeze date given and no more transactions can be proceed further.
+      </li>
+      <li class="mouse-icon">
+        <strong>Allow backlog Entry</strong>
+        <br />
+        If the flag is checked, user can create the back dated entries
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto Create PR/MR from Reorder</strong>
+        <br />
+        To create Purchase requests / Material requests based on the reorder Qty automatically, enable the flag
+      </li>
+      <li class="mouse-icon">
+        <strong>Weigh Bridge Required</strong>
+        <br />
+        If the flag is checked, Weigh Bridge value is mandatorily to be given.
+      </li>
+      <li class="mouse-icon">
+        <strong>Max Buyers allowed</strong>
+        <br />
+        The maximum number of buyers allowed to define in the users will be specified in the field provided.
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto Creation MRV</strong>
+        <br />
+        Material Receipt voucher is created automatically when this flag is enabled during process completion
+      </li>
+      <li class="mouse-icon">
+        <strong>Auto Post MRV</strong>
+        <br />
+        To auto post the Material Receipt voucher, enable this Flag.
+      </li>
+    </ul>
+  </div>
+</div>
